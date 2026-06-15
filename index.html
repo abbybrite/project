@@ -8,21 +8,21 @@
     <script src="https://kit.fontawesome.com/04d567be89.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="">
-        <div class="bg-white text-[#6c8099] items-center flex gap-10 p-[10px] sm:flex sm:justify-center md:flex md:justify-center lg:flex lg:justify-around">
-            <div class="md:hidden sm:hidden lg:block">Have any <br class="md:hidden sm:hidden lg:block">questions:</div>
-            <div class="flex items-center gap-5">
+    <div class="overflow-hidden">
+        <div class="bg-white text-[#6c8099] flex p-[5px] md:p-[10px] lg:p-[10px] md:flex md:justify-center lg:flex lg:justify-around">
+            <div class="md:hidden lg:block hidden">Have any <br class="md:hidden lg:block">questions:</div>
+            <div class="flex lg:flex md:flex items-center md:gap-5 lg:gap-5 gap-2">
                 <i class="fa-solid fa-phone"></i>
-                <p class="text-[14px]">Toll <br class="md:hidden sm:hidden lg:block">free</p>
-                <p class="">+1.800.712.1988</p>
+                <p class="text-[10px] md:text-[14px] lg:text-[14px]">Toll <br class="hidden md:hidden lg:block">free</p>
+                <p class="text-[10px] md:text-[14px] lg:text-[14px]">+1.800.712.1988</p>
             </div>
             <div class="flex gap-10">
                 <div class="flex gap-15 sm:gap-2 lg:gap-15">
                     <img src="" alt="">
-                    <p class="text-[14px]">Email our <br class="md:hidden lg:block">experts:</p>
-                    <p class="text-[#00003c] hover:text-[#bd20203c] border-b text-[14px]">Ask a <br class="md:hidden sm:hidden lg:block">question</p>
+                    <p class="text-[14px] hidden md:block lg:block">Email our <br class="md:hidden lg:block">experts:</p>
+                    <p class="text-[#00003c] hover:text-[#bd20203c] border-b text-[10px] md:text-[14px] lg:text-[14px]">Ask a <br class="hidden md:hidden lg:block">question</p>
                 </div>
-                <div class="flex gap-20 md:hidden sm:hidden lg:block">
+                <div class="flex gap-20 md:hidden sm:hidden lg:block hidden">
                     <div class="flex gap-15 text-[15px] md:hidden sm:hidden lg:block lg:flex">
                         <div>
                             <div></div>
@@ -49,16 +49,16 @@
         
         <!-- nav -->
         <div class="">
-            <div class="bg-[url('/image/modern.jpg')] bg-contain bg-no-repeat bg-cover">
+            <div class="bg-[url('/image/modern.jpg')] bg-cover bg-no-repeat md:bg-no-repeat md:bg-cover lg:bg-no-repeat lg:bg-cover">
                 <div class="inset-0 bg-black/40">
-                    <div class="bg-white/30 backdrop-blur-md p-2">
-                        <p class=" text-center text-white text-[14px] md:hidden lg:block">Our Awards: 2023 Red Herring Top 100 Asia Winners Official Announcement</p>
-                        <div class="flex justify-around items-center text-[14px]">
-                            <div class="flex items-center gap-3 text-white">
-                                <img src="/image/logo@2x.png" alt="" class="w-40">
+                    <div class="bg-white/30 backdrop-blur-md p-5 ">
+                        <p class=" text-center text-white text-[14px] hidden md:hidden lg:block">Our Awards: 2023 Red Herring Top 100 Asia Winners Official Announcement</p>
+                        <div class="flex  justify-between md:justify-around lg:justify-around items-center text-[14px]">
+                            <div class="flex text-white">
+                                <img src="/image/logo@2x.png" alt="" class="w-25 md:w-40 lg:w-40">
                                 <!-- <p class="">Financial <br>And Technolgy <br>Consulting</p> -->
                             </div>
-                            <div class="flex gap-5 text-white text-[14px] top-10 md:hidden lg:block lg:flex relative">
+                            <div class="flex gap-5 text-white text-[14px] top-10 hidden md:hidden lg:block lg:flex relative">
                                 <div class="group relative flex justify-center">
                                     <a href="/index.html" class="text-[#81bae8] h-20 flex">Homepage <i class="fa-solid fa-angle-down"></i></a>
                                     <div class="hidden group-hover:block absolute top-15">
@@ -134,24 +134,26 @@
                                 </div>
                             </div>
                             <div class="flex gap-10 items-center">
-                                <i class="fa-brands fa-facebook"></i>
-                                <i class="fa-brands fa-twitter"></i>
-                                <i class="fa-brands fa-linkedin"></i>
-                                <i class="fa-solid fa-cart-arrow-down"></i>
-                                <div class="flex gap-4 md:block lg:hidden">
+                                <div class="hidden md:block lg:block">
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-linkedin"></i>
+                                    <i class="fa-solid fa-cart-arrow-down"></i>
+                                </div>
+                                <div class="flex gap-1 md:block lg:hidden">
                                     <img src="kl" alt="gn">
-                                    <button type="button" class="bg-white p-2 rounded-2xl">MENU</button>
+                                    <button type="button" class="bg-white p-1 rounded-2xl text-[10px]">MENU</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- nav -->
                     <!-- Investing -->
-                    <div class="m-10 mt-70">
-                        <h2 class="text-[#9ad2ff] text-[58px]">Investing in the <br class="">furture of <span class="text-white">Fintech</span></h2>
-                        <div class="flex gap-10 items-center">
-                            <button type="button" class="bg-white hover:bg-[#81bae8] text-[#00003c] text-[14px] flex justify-between p-4.5 text-center rounded-2xl w-[15rem]">Free Case Evaluation <span><i class="fa-solid fa-upload"></i></span></button>
-                            <p class="text-white text-[13px]">Here's how our fintech advisors <br>can bring your idea to life</p>
+                    <div class="m-5 lg:m-10 md:m-10 mt-20 lg:mt-70 md:mt-70">
+                        <h2 class="text-[#9ad2ff] text-[35px] md:text-[58px] lg:text-[58px] mb-7">Investing in the <br class="">furture of <span class="text-white">Fintech</span></h2>
+                        <div class="flex gap-5 lg:gap-10 md:gap-10 items-center">
+                            <button type="button" class="bg-white hover:bg-[#81bae8] text-[#00003c] text-[14px] flex justify-between p-4.5 text-center rounded-2xl w-[13rem]  md:w-[15rem] lg:w-[15rem]">Free Case Evaluation <span><i class="fa-solid fa-upload"></i></span></button>
+                            <p class="text-white text-[9px] lg:text-[13px] md:text-[13px] hidden md:block lg:block">Here's how our fintech advisors <br class="md:block lg:block hidden">can bring your idea to life</p>
                         </div>
                     </div><hr class="ml-6 mr-6 mt-6 text-white">
                     <!-- Investing -->
@@ -159,45 +161,43 @@
             </div>
         </div>
         <!-- MLAB -->
-        <div class="bg-[#00003c] p-10 h-150">
-            <div class="m-10 text-center">
-                <P class="text-[#9ad2ff] text-[12px]">Financial technology at MLab</P>
-                <h2 class="text-[44px] font-semibold text-white">We are at the Forefront of <br>Revolutionizing the Future.</h2>
-                <p class="text-[#b3b3c5] text-[16px]">Backed by decades of industry experience, we have the financial technology <br>skills and can-do attitude to take your business to the next level.</p>
+        <div class="bg-[#00003c] p-10 h-100 md:h-150 lg:h-150">
+            <div class="m-10">
+                <P class="text-[#9ad2ff] text-[12px] font-bold">Financial technology at MLab</P>
+                <h2 class="text-[24px] md:text-[44px] lg:text-[44px] font-semibold text-white">We are at the Forefront of <br class="">Revolutionizing the Future.</h2>
+                <p class="text-[#b3b3c5] text-[10px] md:text-[16px] lg:text-[16px]">Backed by decades of industry experience, we have the financial technology <br class="lg:block md:block hidden">skills and can-do attitude to take your business to the next level.</p>
             </div>
         </div>
         <!-- MLAB -->
         <div class="bg-[#f5fbff] p-10">
             <div class="">
                 <!-- card -->
-                <div class="relative">
-                    <div class="flex justify-center mt-10 absolute items-center gap-7 bottom-30 sm:gap-4 md:gap-4 lg:gap-7 lg:bottom-0 md:bottom-30">
-                        <div class="bg-white rounded-2xl lg:h-30 flex gap-10 sm:h-80px md:h-80px lg:h-20 shadow-2xl">
+                <div class="">
+                    <div class="lg:flex md:flex lg:relative md:relative sm:gap-4 md:gap-4 lg:gap-7 lg:bottom-0 md:bottom-30">
+                        <div class="bg-white lg:left-2 lg:bottom-[5px] md:left-2 md:bottom-[5px] lg:absolute md:absolute rounded-2xl lg:h-30 lg:flex md:flex gap-10 sm:h-80px md:h-80px lg:h-20 shadow-2xl">
                             <div class="p-1 text-[14px]">how can we help?</div>
                             <img src="/image/phone.jpg" alt="" class="sm:w-[60px] sm:h-[80px] md:w-[60px] md:h-[80px] lg:h-full lg:w-50 rounded-r-2xl ">
                         </div>
-                        <div class="bg-white rounded-2xl h-30 flex justify-between gap-10 sm:h-80px md:h-80px lg:h-30 shadow-2xl">
+                        <div class="bg-white rounded-2xl lg:left-105 lg:bottom-[5px] md:left-105 md:bottom-[5px] lg:absolute md:absolute h-30 lg:flex md:flex justify-between gap-10 sm:h-80px md:h-80px lg:h-30 shadow-2xl">
                             <p class=" text-[14px] text-right p-3">Know more about us</p>
                             <img src="/image/glass.jpg" alt="" class="w-59 sm:w-[60px] sm:h-[80px] md:w-[60px] md:h-[80px] lg:h-full lg:w-50 rounded-r-2xl">
                         </div>
-                        <div class="">
-                            <div class="bg-white rounded-2xl h-30 flex justify-between gap-10 sm:h-80px md:h-80px lg:h-30 sm:gap-5 shadow-2xl">
-                                <p class="p-1 text-[14px]">Careers <br>opportunities</p>
-                                <img src="/image/workers.jpg" alt="" class="w-50 sm:w-[60px] sm:h-[80px] md:w-[60px] md:h-[80px] lg:h-full lg:w-50 rounded-r-2xl">
-                            </div>
-                        </div> 
+                        <div class="bg-white lg:right-5 lg:bottom-[5px] md:right-5 md:bottom-[5px] lg:absolute md:absolute rounded-2xl h-30 lg:flex md:flex justify-between gap-10 sm:h-80px md:h-80px lg:h-30 sm:gap-5 shadow-2xl">
+                            <p class="p-1 text-[14px]">Careers <br>opportunities</p>
+                            <img src="/image/workers.jpg" alt="" class="w-50 sm:w-[60px] sm:h-[80px] md:w-[60px] md:h-[80px] lg:h-full lg:w-50 rounded-r-2xl">
+                        </div>
                     </div>
                 </div>
                 <!-- card --> `
                 <div class="mt-30">
-                    <p class="text-[#b3b3c5] text-[15px] text-[#595980] text-center">Are you segmenting clients to ensure proper coverage and add-on opportunities? <a href="#" class="text-[#00003c]">Find Out More</a></p>
-                    <div class="flex gap-10 justify-between mt-20 md:block lg:flex">
+                    <p class="text-[#b3b3c5] text-[10px] lg:text-[15px] md:text-[15px] text-[#595980] text-center">Are you segmenting clients to ensure proper coverage and add-on opportunities? <a href="#" class="text-[#00003c]">Find Out More</a></p>
+                    <div class="flex">
                         <div class="">
                             <p class="text-[12px] mb-3">Why choose MLab</p>
-                            <div class="text-[24px]">Our values hold us accountable to be the <br class="md:hidden lg:block">best, to act with integrity and to take <br class="md:hidden lg:block">personal responsibility for our <br class="md:block lg:hidden">actions.</div>
+                            <div class="lg:text-[24px] md:text-[24px]">Our values hold us accountable to be the <br class="md:hidden lg:block">best, to act with integrity and to take <br class="md:hidden lg:block">personal responsibility for our <br class="md:block lg:hidden">actions.</div>
                             <button type="button" class="text-[17px] bg-[#00003c] hover:bg-[#9ad2ff] hover:text-[#00003c] text-white p-6 flex gap-10 rounded-[15px] mt-10 md:hidden lg:block">Download Brochure <span><i class="fa-solid fa-arrow-down"></i></span></button>
                         </div>
-                        <div class="flex gap-10 md:mt-10 lg:gap-10">
+                        </div>
                             <div class="">
                                 <p class="text-[16px]">Being brave</p>
                                 <img src="/image/sun.svg" alt="">
@@ -223,7 +223,7 @@
         <div class="m-10">
             <div class="p-10 text-center">
                 <p class="12px">OUR SERVICES</p> 
-                <p class="text-[44px] text-[#00003c] md:text-[34px] lg:text-[44px]">FinTech Consulting Services <br class="lg:block md:hidden">to  <br class="md:block lg:hidden">Empower Your Growth</p>
+                <p class="text-[22px] text-[#00003c] md:text-[34px] lg:text-[44px]">FinTech Consulting Services <br class="lg:block md:hidden hidden">to  <br class="md:block lg:hidden hidden">Empower Your Growth</p>
                 <p class="text-[16px] contain-style text-[#595980]">The LineThemes teams work with FinTech innovators, incumbents and investors to create the digital future of financial services.</p>
             </div>
             <!-- card image -->
@@ -239,14 +239,14 @@
     
                         <!-- 2. The Overlay & Text (Appears on hover) -->
                         <div class="absolute inset-0 flex items-center justify-center bg-blue-400/50 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-                            <span class="text-xl font-bold text-white text[12px]">We work with Fintech innovations to create a digital futures of financial services.</span>
+                            <span class="text-black text[8px]">We work with Fintech innovations, incumbents <br>and investors to create  <br>the digital futures of <br>financial services.</span>
                         </div>
                     </div>
                     <!-- The Text -->
                     <span>Build and lunch</span>
                 </div>
                 <div class="snap-center min-w-[172.79px]">
-                    <div class="group relative h-[230.5px]  shadow-2xl overflow-hidden rounded-xl bg-gray-200">
+                    <div class="group relative h-[230.5px] shadow-2xl overflow-hidden rounded-xl bg-gray-200">
                         <!-- 1. The Image (Zooms in but stays within the frame) -->
                         <img 
                             src="/image/Rectangle-3.jpg" 
@@ -256,7 +256,7 @@
     
                         <!-- 2. The Overlay & Text (Appears on hover) -->
                         <div class="absolute inset-0 flex items-center justify-center bg-blue-400/50 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-                            <span class="text-xl font-bold text-white">We work with FinTech innovators, incubment and investors to create the digital future of financial services.</span>
+                            <span class="text-black text[8px]">We work with Fintech innovations, incumbents <br>and investors to create  <br>the digital futures of <br>financial services.</span>
                         </div>
                     </div>
                     <!-- The Text -->
@@ -271,7 +271,7 @@
                         />
     
                         <div class="absolute inset-0 flex items-center justify-center bg-blue-400/50 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-                            <span class="text-xl font-bold text-white">We work with FinTech innovators, incubment and investors to create the digital future of financial services.</span>
+                            <span class="text-black text[8px]">We work with Fintech innovations, incumbents <br>and investors to create  <br>the digital futures of <br>financial services.</span>
                         </div>
                     </div>
                     <span>FinTech consultants</span>
@@ -287,7 +287,7 @@
     
                         <!-- 2. The Overlay & Text (Appears on hover) -->
                         <div class="absolute inset-0 flex items-center justify-center bg-blue-400/50 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-                            <span class="text-xl font-bold text-white">We work with FinTech innovators, incubment and investors to create the digital future of financial services.</span>
+                            <span class="text-black text[8px]">We work with Fintech innovations, incumbents <br>and investors to create  <br>the digital futures of <br>financial services.</span>
                         </div>
                     </div>
                     <!-- The Text -->
@@ -304,7 +304,7 @@
     
                         <!-- 2. The Overlay & Text (Appears on hover) -->
                         <div class="absolute inset-0 flex items-center justify-center bg-blue-400/50 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-                            <span class="text-xl font-bold text-white">We work with FinTech innovators, incubment and investors to create the digital future of financial services.</span>
+                            <span class="text-black text[8px]">We work with Fintech innovations, incumbents <br>and investors to create  <br>the digital futures of <br>financial services.</span>
                         </div>
                     </div>
                     <!-- The Text -->
@@ -321,7 +321,7 @@
     
                         <!-- 2. The Overlay & Text (Appears on hover) -->
                         <div class="absolute inset-0 flex items-center justify-center bg-blue-400/50 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-                            <span class="text-xl font-bold text-white">We work with FinTech innovators, incubment and investors to create the digital future of financial services.</span>
+                            <span class="text-black text[8px]">We work with Fintech innovations, incumbents <br>and investors to create  <br>the digital futures of <br>financial services.</span>
                         </div>
                     </div>
                     <!-- The Text -->
@@ -338,7 +338,7 @@
     
                         <!-- 2. The Overlay & Text (Appears on hover) -->
                         <div class="absolute inset-0 flex items-center justify-center bg-blue-400/50 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
-                            <span class="text-xl font-bold text-white">We work with FinTech innovators, incubment and investors to create the digital future of financial services.</span>
+                            <span class="text-black text[8px]">We work with Fintech innovations, incumbents <br>and investors to create  <br>the digital futures of <br>financial services.</span>
                         </div>
                     </div>
                     <!-- The Text -->
