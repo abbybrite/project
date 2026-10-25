@@ -3,548 +3,516 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About | MLab</title>
     <link href="./src/output.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/04d567be89.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <div>
-        <!-- top -->
-        <div class="bg-white text-[#6c8099] items-center flex gap-10 lg:p-[10px] md:p-5 p-2.5 sm:flex sm:justify-center md:flex md:justify-center lg:flex lg:justify-around">
-            <div class="md:hidden sm:hidden lg:block">Have any <br class="md:hidden sm:hidden lg:block">questions:</div>
-            <div class="flex items-center gap-5">
-                <i class="fa-solid fa-phone"></i>
-                <p class="text-[14px]">Toll <br class="md:hidden sm:hidden lg:block">free</p>
-                <p class="">+1.800.712.1988</p>
-            </div>
-            <div class="flex gap-10">
-                <div class="flex gap-15 sm:gap-2 lg:gap-15">
-                    <img src="" alt="">
-                    <p class="text-[14px]">Email our <br class="md:hidden lg:block">experts:</p>
-                    <p class="text-[#00003c] hover:text-[#bd20203c] border-b text-[14px]">Ask a <br class="md:hidden sm:hidden lg:block">question</p>
-                </div>
-                <div class="flex gap-20 md:hidden sm:hidden lg:block">
-                    <div class="flex gap-15 text-[15px] md:hidden sm:hidden lg:block lg:flex">
-                        <div>
-                            <div></div>
-                            <a href="#">SHOP</a>
-                        </div>
-                        <div class="flex gap-5">
-                            <!-- <div class="bg-gray-500 w-1 h-[15px] rounded"></div> -->
-                            <a href="#" class="border-l-2 pl-2 h-4">CAREERS</a>
-                        </div>
-                        <div class="flex gap-5">
-                            <!-- <div class="bg-gray-500 w-1 h-[15px] rounded"></div> -->
-                            <a href="#" class="border-l-2 items-center pl-2 h-4 flex items-center">DOCUMENTATION</a>
-                        </div>
-                        <div class="flex gap-5">
-                            <!-- <div class="bg-gray-500 w-1 h-[15px] rounded"></div> -->
-                            <a href="#" class="border-l-2 items-center bottom-2 flex pl-2 h-4">SUPPORT <br>CENTRAL</a>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
+<body class="overflow-x-hidden">
+
+    <!-- top -->
+    <div class="bg-white text-[#6c8099] flex items-center justify-between lg:justify-around gap-4 px-4 py-2 text-[12px] lg:text-[14px]">
+        <div class="hidden lg:block">Have any questions:</div>
+        <div class="flex items-center gap-2 lg:gap-4">
+            <i class="fa-solid fa-phone"></i>
+            <p>Toll free</p>
+            <p>+1.800.712.1988</p>
         </div>
-        <!--top-->
-        
-        <!-- nav -->
-        <div class="bg-[url('/image/modern.jpg')] bg-contain bg-no-repeat bg-cover">
-            <div class="inset-0 bg-black/40">
-                <div class="bg-white/30 backdrop-blur-md p-2">
-                    <p class=" text-center text-white text-[14px] md:hidden lg:block">Our Awards: 2023 Red Herring Top 100 Asia Winners Official Announcement</p>
-                    <div class="flex justify-around items-center text-[14px]">
-                        <div class="flex items-center gap-3 text-white">
-                            <img src="/image/logo@2x.png" alt="" class="w-40">
-                            <!-- <p class="">Financial <br>And Technolgy <br>Consulting</p> -->
-                        </div>
-                        <div class="flex gap-5 text-white text-[14px] top-10 md:hidden lg:block lg:flex relative">
-                            <div class="group relative flex justify-center">
-                                <a href="/index.html" class="text-[#81bae8] h-20 flex">Homepage <i class="fa-solid fa-angle-down"></i></a>
-                                <div class="hidden group-hover:block absolute top-15">
-                                    <div class="flex flex-col gap-5 bg-white text-center p-2 rounded-2xl text-[#00003c] w-40">
-                                        <div class="hover:bg-red-600 hover:w-full p-2"><a href="#">Homepage 1</a></div>
-                                        <div><a href="#">Homepage 2</a></div>
-                                        <div><a href="#">Homepage 3</a></div>
-                                    </div>
+        <div class="flex items-center gap-2 lg:gap-4">
+            <p class="hidden md:block">Email our experts:</p>
+            <a href="#" class="text-[#00003c] hover:text-[#bd2020] border-b">Ask a question</a>
+        </div>
+        <div class="hidden lg:flex items-center gap-5 text-[15px]">
+            <a href="#">SHOP</a>
+            <a href="#" class="border-l-2 pl-3">CAREERS</a>
+            <a href="#" class="border-l-2 pl-3">DOCUMENTATION</a>
+            <a href="#" class="border-l-2 pl-3">SUPPORT CENTRAL</a>
+        </div>
+    </div>
+
+    <!-- hero -->
+    <div class="bg-[url('/image/modern.jpg')] bg-cover bg-center bg-no-repeat">
+        <div class="bg-black/40">
+
+            <!-- nav -->
+            <header class="relative bg-white/30 backdrop-blur-md px-5 py-4 text-white text-[14px]">
+                <p class="hidden lg:block text-center mb-3">Our Awards: 2023 Red Herring Top 100 Asia Winners Official Announcement</p>
+                <div class="flex items-center justify-between lg:justify-around">
+                    <a href="/index.html"><img src="/image/logo@2x.png" alt="MLab logo" class="w-28 md:w-40"></a>
+
+                    <nav class="hidden lg:flex items-center gap-6">
+                        <div class="group relative">
+                            <a href="/index.html" class="hover:text-[#81bae8] flex items-center gap-1 py-4">Homepage <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="hidden group-hover:block absolute left-0 top-full z-50">
+                                <div class="flex flex-col bg-white text-center p-2 rounded-2xl text-[#00003c] w-40">
+                                    <a href="#" class="p-2 rounded-lg hover:bg-[#9ad2ff]">Homepage 1</a>
+                                    <a href="#" class="p-2 rounded-lg hover:bg-[#9ad2ff]">Homepage 2</a>
+                                    <a href="#" class="p-2 rounded-lg hover:bg-[#9ad2ff]">Homepage 3</a>
                                 </div>
-                            </div>
-                            <div class=" group relative flex justify-center">
-                                <a href="/about.html" class="hover:text-[#81bae8]">About <i class="fa-solid fa-angle-down"></i></a>
-                                <div class="hidden group-hover:block absolute top-15">
-                                    <div class="flex flex-col gap-5 bg-white p-5 rounded-2xl text-[#00003c] w-50">
-                                        <div><a href="/about.html">Company</a></div>
-                                        <div><a href="#">Our people</a></div>
-                                        <div><a href="#">Mission and vision</a></div>
-                                        <div><a href="#">Solutions</a></div>
-                                        <div><a href="#">News and Events</a></div>
-                                        <div><a href="#">FAQs</a></div>
-                                        <div><a href="#">Career</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="group relative flex justify-center">
-                                <a href="#" class="hover:text-[#81bae8]">Solution<span><i class="fa-solid fa-angle-down"></i></span></a>
-                                <div class="hidden group-hover:block absolute top-15">
-                                    <div class="flex justify-around bg-white p-5 rounded-2xl text-[#00003c] w-120">
-                                        <div>
-                                            <p class="text-[9px] mb-5">USE CASES</p>
-                                            <div class="flex flex-col gap-3">
-                                                <div><a href="#"><img src=""alt=""> <span>Bank Credit Collection</span></a></div>
-                                                <div><a href="#">Invoicing & Billing Platform</a></div>
-                                                <div><a href="#">Online Platform for SME</a></div>
-                                                <div><a href="#">Stock Trading Signals</a></div>
-                                                <div><a href="#">Team Extension for eWallet</a></div>
-                                                <div><a href="#">Wealth Management</a></div>
-                                            </div>
-                                        </div>
-                                        <div class="bg-gray-500 h-60 w-[1px]"></div>
-                                        <div>
-                                            <p class="text-[9px] mb-5">FOR INDUSTRIES</p>
-                                            <div class="flex flex-col gap-3"">
-                                                <div><a href="#"><img src="" alt=""> <span>Banking and Finance</span></a></div>
-                                                <div><a href="#">Healthcare & Life Sciences</a></div>
-                                                <div><a href="#">Technology & Software</a></div>
-                                                <div><a href="#">Transportation & Logistics</a></div>
-                                                <div><a href="#">Ecommerce and Retail</a></div>
-                                                <div><a href="#">Education and Training</a></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="group relative flex justify-center">
-                                <a href="/case.html" class="hover:text-[#81bae8]">Case studies<span><i class="fa-solid fa-angle-down"></i></span></a>
-                                <div class="hidden group-hover:block absolute top-15">
-                                    <div class="flex flex-col gap-5 bg-white p-5 rounded-2xl text-[#00003c] w-50">
-                                        <div><a href="/case.html">Case Studies Style 1</a></div>
-                                        <div><a href="#">Case Studies Style 2</a></div>
-                                        <div><a href="#">Case Studies Style 3</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="hover:text-[#81bae8]">
-                                <a href="/blog.html">Blog<span></span></a>
-                            </div>
-                            <div class="hover:text-[#81bae8]">
-                                <a href="/contact.html">contact us<span></span></a>
-                            </div>
-                            <div>
-                                <button type="button" class="bg-[#81bae8] text-[14px] text-[#00003c] rounded-2xl p-1 w-[10rem] hover:bg-red-600 hover:text-white">Get Started</button>
                             </div>
                         </div>
-                        <div class="flex gap-10 items-center">
+
+                        <div class="group relative">
+                            <a href="/about.html" class="text-[#81bae8] flex items-center gap-1 py-4">About <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="hidden group-hover:block absolute left-0 top-full z-50">
+                                <div class="flex flex-col gap-3 bg-white p-5 rounded-2xl text-[#00003c] w-52">
+                                    <a href="/about.html" class="hover:text-[#4a90d9]">Company</a>
+                                    <a href="#" class="hover:text-[#4a90d9]">Our people</a>
+                                    <a href="#" class="hover:text-[#4a90d9]">Mission and vision</a>
+                                    <a href="#" class="hover:text-[#4a90d9]">Solutions</a>
+                                    <a href="#" class="hover:text-[#4a90d9]">News and Events</a>
+                                    <a href="#" class="hover:text-[#4a90d9]">FAQs</a>
+                                    <a href="#" class="hover:text-[#4a90d9]">Career</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="group relative">
+                            <a href="#" class="hover:text-[#81bae8] flex items-center gap-1 py-4">Solution <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="hidden group-hover:block absolute left-1/2 -translate-x-1/2 top-full z-50">
+                                <div class="flex gap-6 bg-white p-6 rounded-2xl text-[#00003c] w-[32rem]">
+                                    <div class="flex-1">
+                                        <p class="text-[10px] mb-4">USE CASES</p>
+                                        <div class="flex flex-col gap-3">
+                                            <a href="#">Bank Credit Collection</a>
+                                            <a href="#">Invoicing &amp; Billing Platform</a>
+                                            <a href="#">Online Platform for SME</a>
+                                            <a href="#">Stock Trading Signals</a>
+                                            <a href="#">Team Extension for eWallet</a>
+                                            <a href="#">Wealth Management</a>
+                                        </div>
+                                    </div>
+                                    <div class="bg-gray-300 w-px"></div>
+                                    <div class="flex-1">
+                                        <p class="text-[10px] mb-4">FOR INDUSTRIES</p>
+                                        <div class="flex flex-col gap-3">
+                                            <a href="#">Banking and Finance</a>
+                                            <a href="#">Healthcare &amp; Life Sciences</a>
+                                            <a href="#">Technology &amp; Software</a>
+                                            <a href="#">Transportation &amp; Logistics</a>
+                                            <a href="#">Ecommerce and Retail</a>
+                                            <a href="#">Education and Training</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="group relative">
+                            <a href="/case.html" class="hover:text-[#81bae8] flex items-center gap-1 py-4">Case studies <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="hidden group-hover:block absolute left-0 top-full z-50">
+                                <div class="flex flex-col gap-3 bg-white p-5 rounded-2xl text-[#00003c] w-52">
+                                    <a href="/case.html" class="hover:text-[#4a90d9]">Case Studies Style 1</a>
+                                    <a href="#" class="hover:text-[#4a90d9]">Case Studies Style 2</a>
+                                    <a href="#" class="hover:text-[#4a90d9]">Case Studies Style 3</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="/blog.html" class="hover:text-[#81bae8]">Blog</a>
+                        <a href="/contact.html" class="hover:text-[#81bae8]">Contact us</a>
+                        <button type="button" class="bg-[#81bae8] text-[#00003c] rounded-2xl py-2 px-8 hover:bg-red-600 hover:text-white">Get Started</button>
+                    </nav>
+
+                    <div class="flex items-center gap-6">
+                        <div class="hidden md:flex gap-4 text-[16px]">
                             <i class="fa-brands fa-facebook"></i>
                             <i class="fa-brands fa-twitter"></i>
                             <i class="fa-brands fa-linkedin"></i>
                             <i class="fa-solid fa-cart-arrow-down"></i>
-                            <div class="flex gap-4 md:block lg:hidden">
-                                <img src="kl" alt="gn">
-                                <button type="button" class="bg-white p-2 rounded-2xl">MENU</button>
-                            </div>
                         </div>
+                        <button type="button" id="menu-btn" class="lg:hidden bg-white text-[#00003c] px-4 py-1 rounded-2xl text-[12px]" aria-expanded="false" aria-controls="mobile-menu">MENU</button>
                     </div>
                 </div>
-                <!-- nav -->
-                <!-- Investing -->
-                <div class="m-10 mt-70">
-                    <h2 class="text-[#9ad2ff] text-[58px]">Investing in the <br class="">furture of <span class="text-white">Fintech</span></h2>
-                    <div class="flex gap-10 items-center">
-                        <button type="button" class="bg-white hover:bg-[#81bae8] text-[#00003c] text-[14px] flex justify-between p-4.5 text-center rounded-2xl w-[15rem]">Free Case Evaluation <span><i class="fa-solid fa-upload"></i></span></button>
-                        <p class="text-white text-[13px]">Here's how our fintech advisors <br>can bring your idea to life</p>
-                    </div>
-                </div><hr class="ml-6 mr-6 mt-6 text-white">
-                <!-- Investing -->
-            </div>
-            <!-- we deliver  -->
-        </div>
-        <!-- nav  -->
-        <!-- why choose  -->
-        <div class="bg-[#fdfeff] p-10">
-            <div class="flex gap-10 justify-between mt-20 md:block lg:hidden">
-                <div class="">
-                    <p class="text-[12px] mb-3">Why choose MLab</p>
-                    <div class="text-[24px]">Our values hold us accountable to be the <br class="md:hidden lg:block">best, to act with <br class="md:block lg:hidden">integrity and to take <br class="md:hidden lg:block">personal responsibility for our <br class="md:block lg:hidden">actions.</div>
-                    <button type="button" class="text-[17px] bg-[#00003c] hover:bg-[#9ad2ff] hover:text-[#00003c] text-white p-6 flex gap-10 rounded-[15px] mt-10">Download Brochure <span>icon</span></button>
-                </div>
-                <div class="flex gap-10 md:mt-20 lg:mt-0">
-                    <div class="">
-                        <img src="/image/sun.svg" alt="" class="mb-10">
-                        <p class="text-[16px] mb-5">Being brave</p>
-                        <p class="text-[14px] text-[#8587a4]">New ideas drive change, <br class="md:hidden lg:block">so we <br class="md:block lg:block">constantly <br class="md:hidden lg:block">innovate and take on <br class="md:block lg:hidden">new <br class="md:hidden lg:block">challenges–that’s what <br class="md:block lg:block">makes us pioneers.</p>
-                    </div>
-                    <div class="">
-                        <img src="/image/heart.svg" alt="" class="mb-10">
-                        <p class="text-[16px] mb-5">Being human</p>
-                        <p class="text-[12px] text-[#8587a4]">Our approach is driven by <br class="md:hidden lg:block">what <br class="md:block lg:hidden">makes us all human, <br class="md:hidden lg:block">and it has <br class="md:block lg:hidden">built a creative <br class="md:hidden lg:block">environment <br class="md:block lg:hidden">where <br class="md:hidden lg:block">people can thrive.</p>
-                    </div>
-                    <div class="">
-                        <img src="/image/bar.svg" alt="" class="mb-10">
-                        <p class="text-[16px] mb-5">Being different</p>
-                        <p class="text-[12px] text-[#8587a4]">By tapping into all of our <br class="md:hidden lg:block">unique <br class="md:block lg:hidden">journeys, we can <br class="md:hidden lg:block">deliver <br class="md:block lg:hidden">meaningful <br class="md:hidden lg:block">solutions that make a <br class="md:block lg:hidden">difference.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- why choose  -->
-        <!-- our journey  -->
-        <div class="flex justify-between p-10">
-            <div>
-                <img src="/image/img6.jpg" alt="" class="rounded-2xl md:h-80 lg:h-full ">
-            </div>
-            <div class="">
-                <div class="w-150 bg-[#e0e0e7] h-[1px] mb-20"></div>
-                <p class="text-[24px] text-[#00003c] mb-10">Our journey has focused on <br class="md:block lg:hidden">simplifying <br class="md:hidden lg:block">payments for <br class="md:block lg:hidden">businesses.</p>
-                <p class="text-[16px] text-[#595980] mb-10">John Doe have been active participants of the <br class="md:block lg:hidden">European entrepreneurial <br class="md:hidden lg:block">ecosystem for the <br class="md:block lg:hidden">past 15 years. They have experienced first- <br class="md:block lg:hidden">hand how hard <br class="md:hidden lg:block">it is to get funding. So in 2020, <br class="md:block lg:hidden">they teamed up to solve the challenge that <br >every business faces when trying to secure <br class="md:block lg:hidden">growth and continuity. That <br>solution is FiTex.</p>
-                <button type="button" class="flex justify-between rounded-2xl hover:bg-red-400 hover:text-white text-[17px] text-[#00003c] bg-white mb-10 p-5 w-[25rem] shadow-2xl">Download Brochure <span>icon</span></button>
-                <div class="flex items-center gap-15 mt-10">
-                    <div class="bg-[#e0e0e7] w-[0.8px] h-30"></div>
-                    <div>
-                        <div class="text-[#68688c] text-[15px]">“Embrace what you don’t know, especially <br class="md:block lg:hidden">in the beginning, because what <br class="md:hidden lg:block">you don’t <br class="md:block lg:hidden">know can become your greatest asset. It <br class="md:block lg:block">ensures that you will <br class="md:hidden lg:block">absolutely be doing <br class="md:block lg:hidden">things differently from everybody else”</div>
-                        <p class="text-[14px] text-[#050202] mt-10">Sara Blakely, SPANX founder</p>
-                    </div>
-                </div>
-            </div>
-        </div><hr class="h-[1px]">
-        <!-- our journey  -->
-        <div class="flex p-10">
-            <div>
-                <p class="text-[12px] text-[#5E566A] leading-[2rem]">By the Number</p>
-                <p class="text-[24px] text-[#00003C]">We have the scale, <br class="md:block lg:hidden">stability, and <br class="md:hidden lg:block">experience <br class="md:block lg:hidden">to support your success,<br class="md:block lg:hidden"> our <br class="md:hidden lg:block">global growth is <br class="md:block lg:hidden">driven by world-class <br>employees and satisfied customers.</p>
-                <p class="text-[17px] text-[#595980] mt-5">Powered by a global team of <br class="md:block lg:hidden">225,000+ diverse and <br class="md:hidden lg:block">passionate <br class="md:block lg:hidden">people across 60 countries.</p>
-            </div>
-            <!-- <div>
-                <div class="flex justify-between">
-                    <p>$ 5 billion</p>
-                    <div>
-                        <span>in 2022 processing volume</span>
-                    </div>
-                </div>
-                <div class="flex justify-between">
-                    <p>27 countries</p>
-                    <div>
-                        <span>countries satisfied to operate</span>
-                    </div>
-                </div>
-                <div class="flex justify-between gap-20">
-                    <div>
-                        <p>99 percent</p>
-                    </div>
-                    <span>platform uptime in 2022</span>
-                </div>
-                <div class="flex justify-between gap-20">
-                    <div>
-                        <p>34 years</p>
-                    </div>
-                    <span>of operation since 1995</span>
-                </div>
-            </div> -->
-        </div>
-        <!-- our journey  -->
-        <!-- let build  -->
-        <div class="bg-[url('/image/bg12.jpg')] bg-no-repeat bg-cover">
-            <div class="p-10 flex justify-end">
-                <div class="flex flex-col m-20">
-                    <h2 class="text-[70px] text-[#00003c] md:text-[50px] lg:text-[70px]">let's build for <br class="md:hidden lg:block">the <br class="md:block lg:hidden">future.</h2>
-                    <div class="flex items-center gap-10">
-                        <button type="button" class="text-[17px] bg-white text-[#00003c] p-[20px] gap-20 flex justify-between rounded-2xl items-center md:w-80 lg:">Career opportunities <span class="">&nearr;</span></button>
-                        <p class="text-[16px] text-[#595980] text-[16px] md:hidden lg:block">Join a team that's focused on <br>bringing the future forward.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- let build  -->
-        <!-- our solution  -->
-        <div class="bg-[#000048] p-10">
-            <div class="mt-20">
-                <div class="text-center">
-                    <P class="text-white text-[22px]">our solutions</P>
-                    <h2 class="text-[#9ad2ff] text-[42px] md:text-[30px] lg:text-[42px]">Here are some of the biggest <br class="md:block lg:hidden">milestones <br class="md:hidden lg:block">we've crossed along the <br class="md:block lg:hidden">way.</h2>
-                </div>
-                <div>
-                    <div class="flex  snap-x overflow-x-auto overflow-y-scroll hide-scrollbar gap-4 p-4 ">
-                        <div class="bg-white h-65 w-60 rounded-2xl snap-center  ">
-                            <img src="/image/h1.jpg" alt="" class="rounded-2xl">
-                            <div class="p-5">
-                                <p class="text-[#00004e] text-[16px]">Present</p>
-                                <div class="bg-[#9ad2ff] w-10 h-[3px] rounded-2xl mt-3"></div>
-                                <div class="text-[#9998a5] text-[14px] mt-3">We have more than 50 office <br>world wide, providing <br>instruction in 27 languages.</div>
-                            </div>
-                        </div>
-                        <div class="bg-white h-78 w-60 rounded-2xl snap-center">
-                            <img src="/image/h2.jpg" alt="" class="rounded-2xl">
-                            <div class="p-5">
-                                <p class="text-[#00004e] text-[16px]">May 2020</p>
-                                <div class="bg-[#9ad2ff] w-10 h-[3px] rounded-2xl mt-3"></div>
-                                <div class="text-[#9998a5] text-[14px] mt-3">By May 2020 we landed our <br>100th client engagement. of <br>course it's aboout quality over <br>quantity, but we're proud of the <br>many lasting client relationships <br>we've created</div>
-                            </div>
-                        </div>
-                        <div class="bg-white h-88 w-60 rounded-2xl snap-center">
-                            <img src="/image/h3.jpg" alt="" class="rounded-2xl">
-                            <div class="p-5">
-                                <p class="text-[#00004e] text-[16px]">sep 2014</p>
-                                <div class="bg-[#9ad2ff] w-10 h-[3px] rounded-2xl mt-3"></div>
-                                <div class="text-[#9998a5] text-[14px] mt-3">In the early years of Mlab,we <br>were still figuring out what we <br>wanted to be when we grew up. <br>We hadn't yet narrow our <br> focus to service private equity- <br>backed companies-but the <br>fall of 2014 marked a turning <br>point</div>
-                            </div>
-                        </div>
-                        <div class="bg-white h-65 w-60 rounded-2xl snap-center">
-                            <img src="/image/h4.jpg" alt="" class="rounded-2xl">
-                            <div class="p-5">
-                                <p class="text-[#00004e] text-[16px]">Sat 1997</p>
-                                <div class="bg-[#9ad2ff] w-10 h-[3px] rounded-2xl mt-3"></div>
-                                <div class="text-[#9998a5] text-[14px] mt-3">By sat 1997, we outgrew <br>the corner office we had <br>been borrowing from one <br>of our investors.</div>
-                            </div>
-                        </div>
-                        <div class="bg-white h-88 w-60 rounded-2xl snap-center">
-                            <img src="/image/h6.jpg" alt="" class="rounded-2xl">
-                            <div class="p-5">
-                                <p class="text-[#00004e] text-[16px]">May 1990</p>
-                                <div class="bg-[#9ad2ff] w-10 h-[3px] rounded-2xl mt-3"></div>
-                                <div class="text-[#9998a5] text-[14px] mt-3">...and not just any client.The <br>U.S.LT hired Mlab in 1990- <br>entrusting us to develop <br>investment model that would <br>enable prediction as to which <br>research graant would yield the <br>most value.as they say in LT, <br>anchors aweigh!</div>
-                            </div>
-                        </div>
-                        <div class="bg-white h-88 w-60 rounded-2xl snap-center">
-                            <img src="/image/h6.jpg" alt="" class="rounded-2xl">
-                            <div class="p-5">
-                                <p class="text-[#00004e] text-[16px]">Dec 1998</p>
-                                <div class="bg-[#9ad2ff] w-10 h-[3px] rounded-2xl mt-3"></div>
-                                <div class="text-[#9998a5] text-[14px] mt-3">Like the musical instruments, <br>MLab’s business plan centered <br>around the ability to expand <br>and contract.We recognized <br>the need for a flexible financial <br>consulting model, amd in <br>November 1988, we opened our <br>doors.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <p class="text-[white] text-[14px] text-center mt-40">Disclaimer: <span class="text-[#f1f0f8]">All views and opinions that may be expressed in the posts on this page as well as post emanating</span></p>
-                </div>
-            </div>
-        </div>
-        <!-- our solution  -->
-        
-        <!-- our location  -->
-        <div class="p-10">
-            <div class="flex justify-between">
-                <p class="text-[12px]">Our Locations</p>
-                <div>
-                    <p class="text-[44px] text-[#00003c]">US</p>
-                    <p class="text-[15px] text-[#595980]">2307 Beverley Rd <br class="md:block lg:hidden">Brooklyn, NY <br>11226 United States.</p>
-                    <div class="flex flex-col gap-2">
-                        <a href="#" class="text-[15px] underline">office.us@example.com</a>
-                        <a href="#" class="text-[15px] underline">+1 900 135 7999</a>
-                    </div>
-                </div>
-                <div>
-                    <p class="text-[44px] text-[#00003c]">UK</p>
-                    <p class="text-[15px] text-[#595980]">2307 Beverley Rd <br class="md:block lg:hidden">Brooklyn, NY <br>11226 United States.</p>
-                    <div class="flex flex-col gap-2">
-                        <a href="#" class="text-[15px] underline">office.us@example.com</a>
-                        <a href="#" class="text-[15px] underline">+1 900 135 7999</a>
-                    </div>
-                </div>
-                <div>
-                    <p class="text-[44px] text-[#00003c]">IN</p>
-                    <p class="text-[15px] text-[#595980]">2307 Beverley Rd <br class="md:block lg:hidden">Brooklyn, NY <br>11226 United States.</p>
-                    <div class="flex flex-col gap-2">
-                        <a href="#" class="text-[15px] underline">office.us@example.com</a>
-                        <a href="#" class="text-[15px] underline">+1 900 135 7999</a>
-                    </div>
-                </div>
-                
-            </div><hr class="mt-20">
-            <div>
-                <div class="mt-20 flex gap-20">
-                    <p class="text-[#5e566a] text-[12px]">LEADERSHIP TEAM</p>
-                    <div>
-                        <p class="text-[44px] text-[#00003c] md:text-[34px] lg:text-[44px]">Leading with Value- <br class="md:hidden lg:block">Driven <br class="md:block lg:hidden">Principles and a <br class="md:hidden lg:block">People-First <br class="md:block lg:hidden">Approach</p>
-                        <p class="text-[16px] text-[#595980] mt-10">We are all passionate and committed to deliver high quality services to <br class="md:block lg:hidden">our clients.</p>
-                    </div>
-                </div>
-                <div class="mt-20 grid grid-cols-6 md:grid-cols-3 gap-10 lg:grid-cols-6">
-                    <div>
-                        <img src="/image/1.jpeg" alt="" class="rounded-2xl grayscale hover:grayscale-0">
-                        <div class="mt-4">
-                            <p class="text-[#00003c] text-[17px]">Mark Potter</p>
-                            <p class="text-[#addaff] text-[12px]">President & CEO</p>
-                            <div class="flex flex-col gap-2 mt-3">
-                                <a href="#" class="underline underline text-[14px]">info@example.com</a>
-                                <a href="#" class="hover:text-red-400 underline text-[14px]">+1 900 135 7999</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="/image/3.jpeg" alt="" class="rounded-2xl grayscale hover:grayscale-0">
-                        <div class="mt-4">
-                            <p class="text-[#00003c] text-[17px]">Andrew Kinzer</p>
-                            <p class="text-[#addaff] text-[12px]">Chief Sales Officer</p>
-                            <div class="flex flex-col gap-2 mt-3">
-                                <a href="#" class="underline underline text-[14px]">info@example.com</a>
-                                <a href="#" class="hover:text-red-400 underline text-[14px]">+1 900 135 7999</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="/image/10.jpeg" alt="" class="rounded-2xl grayscale hover:grayscale-0">
-                        <div class="mt-4">
-                            <p class="text-[#00003c] text-[17px]">Anna Baird</p>
-                            <p class="text-[#addaff] text-[12px]">Chief Information</p>
-                            <div class="flex flex-col gap-2 mt-3">
-                                <a href="#" class="underline underline text-[14px]">info@example.com</a>
-                                <a href="#" class="hover:text-red-400 underline text-[14px]">+1 900 135 7999</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="/image/2.jpeg" alt="" class="rounded-2xl grayscale hover:grayscale-0">
-                        <div class="">
-                            <p class="text-[#00003c] text-[17px]">Gordon Hempton</p>
-                            <p class="text-[#addaff] text-[12px]">President of Capital</p>
-                            <div class="flex flex-col gap-2 mt-3">
-                                <a href="#" class="underline underlinetext-[14px]">info@example.com</a>
-                                <a href="#" class="hover:text-red-400 underline text-[14px]">+1 900 135 7999</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="/image/7.jpeg" alt="" class="rounded-2xl grayscale hover:grayscale-0">
-                        <div class="">
-                            <p class="text-[#00003c] text-[17px]">Katie Doyle</p>
-                            <p class="text-[#addaff] text-[12px]">Chief Marketing</p>
-                            <div class="flex flex-col gap-2 mt-3">
-                                <a href="#" class="underline underline text-[14px]">info@example.com</a>
-                                <a href="#" class="hover:text-red-400 underline text-[14px]">+1 900 135 7999</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="/image/4 (1).jpeg" alt="" class="rounded-2xl grayscale hover:grayscale-0">
-                        <div class="">
-                            <p class="text-[#00003c] text-[17px]">Matt Millen</p>
-                            <p class="text-[#addaff] text-[12px]">Chief Strategy</p>
-                            <div class="flex flex-col gap-2 mt-3">
-                                <a href="#" class="underline underline text-[14px]">info@example.com</a>
-                                <a href="#" class="hover:text-red-400 underline text-[14px]">+1 900 135 7999</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="/image/5.jpeg" alt="" class="rounded-2xl grayscale hover:grayscale-0">
-                        <div class="">
-                            <p class="text-[#00003c] text-[17px]">Wes Hather</p>
-                            <p class="text-[#addaff] text-[12px]">Chief People Officer</p>
-                            <div class="flex flex-col gap-2 mt-3">
-                                <a href="#" class="underline underline text-[14px]">info@example.com</a>
-                                <a href="#" class="hover:text-red-400 underline text-[14px]">+1 900 135 7999</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="/image/9.jpeg" alt="" class="rounded-2xl grayscale hover:grayscale-0">
-                        <div class="">
-                            <p class="text-[#00003c] text-[17px]">Martin Rues</p>
-                            <p class="text-[#addaff] text-[12px]">Chief Technology</p>
-                            <div class="flex flex-col gap-2 mt-3">
-                                <a href="#" class="underline underline text-[14px]">info@example.com</a>
-                                <a href="#" class="hover:text-red-400 underline text-[14px]">+1 900 135 7999</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="/image/61.jpeg" alt="" class="rounded-2xl grayscale hover:grayscale-0">
-                        <div class="">
-                            <p class="text-[#00003c] text-[17px]">Sarah Imbach</p>
-                            <p class="text-[#addaff] text-[12px]">Financial Services</p>
-                            <div class="flex flex-col gap-2 mt-3">
-                                <a href="#" class="underline underline text-[14px]">info@example.com</a>
-                                <a href="#" class="hover:text-red-400 underline text-[14px]">+1 900 135 7999</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="/image/8.jpeg" alt="" class="rounded-2xl grayscale hover:grayscale-0">
-                        <div class="">
-                            <p class="text-[#00003c] text-[17px]">Archana Deskus</p>
-                            <p class="text-[#addaff] text-[12px]">Chief Financial</p>
-                            <div class="flex flex-col gap-2 mt-3">
-                                <a href="#" class="underline underline text-[14px]">info@example.com</a>
-                                <a href="#" class="hover:text-red-400 underline text-[14px]">+1 900 135 7999</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="/image/4 (1).jpeg" alt="" class="rounded-2xl grayscale hover:grayscale-0">
-                        <div class="mt-2">
-                            <p class="text-[#00003c] text-[17px]">Matt Millen/p>
-                            <p class="text-[#addaff] text-[12px]">Chief Strategy</p>
-                            <div class="flex flex-col gap-2 mt-3">
-                                <a href="#" class="underline underline text-[14px]">info@example.com</a>
-                                <a href="#" class="hover:text-red-400 underline text-[14px]">+1 900 135 7999</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-[78px]"><i class="fa-solid fa-plus"></i></div>
-                </div>
-            </div>
-        </div>
-        <!-- our location  -->
-        <!-- out partner  -->
-        <div class="bg-[#eff4f8] p-10 h-90">
-            <div class="float-end">
-                <p class="capitalize text-[#5e566a] mb-5 text-[12px]">Our Partner Ecosystem</p>
-                <p class="text-[#00003c] text-[24px]">Our collaborative ecosystem of market leaders <br class="md:hidden lg:block">brings together FinTex’s world-class innovation <br class="md:hidden lg:block">and deep partner expertise to innovate for the <br class="md:hidden lg:hidden">future and drive value.</p>
-                <div class="mt-10 text-[15px] underline"><a href="#">Click here to partner with us</a></div>
-            </div>
-        </div>
-        <!-- out partner  -->
 
-        <!-- footer  -->
-        <div class="bg-[#00003c] p-10">
+                <!-- mobile menu -->
+                <div id="mobile-menu" class="hidden lg:hidden absolute left-0 right-0 top-full z-50 bg-white text-[#00003c] p-5 shadow-lg">
+                    <div class="flex flex-col gap-4">
+                        <a href="/index.html">Homepage</a>
+                        <a href="/about.html" class="text-[#4a90d9]">About</a>
+                        <a href="#">Solution</a>
+                        <a href="/case.html">Case studies</a>
+                        <a href="/blog.html">Blog</a>
+                        <a href="/contact.html">Contact us</a>
+                        <button type="button" class="bg-[#81bae8] rounded-2xl py-2 hover:bg-red-600 hover:text-white">Get Started</button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- investing -->
+            <div class="px-5 md:px-10 pt-16 md:pt-32 lg:pt-56">
+                <h1 class="text-[#9ad2ff] text-[36px] md:text-[58px] leading-tight mb-7">Investing in the <br>future of <span class="text-white">Fintech</span></h1>
+                <div class="flex flex-wrap items-center gap-5 lg:gap-10">
+                    <button type="button" class="bg-white hover:bg-[#81bae8] text-[#00003c] text-[14px] flex justify-between items-center gap-4 py-4 px-5 rounded-2xl w-52 md:w-60">Free Case Evaluation <i class="fa-solid fa-upload"></i></button>
+                    <p class="text-white text-[13px] hidden md:block">Here's how our fintech advisors <br>can bring your idea to life</p>
+                </div>
+                <hr class="mt-10 border-white/40">
+            </div>
+            <div class="h-6"></div>
+        </div>
+    </div>
+
+    <!-- why choose -->
+    <section class="bg-[#fdfeff] px-5 md:px-10 py-14 md:py-20">
+        <div class="lg:flex lg:justify-between lg:gap-16">
+            <div class="mb-12 lg:mb-0 lg:w-2/5">
+                <p class="text-[12px] mb-3">Why choose MLab</p>
+                <p class="text-[20px] md:text-[24px]">Our values hold us accountable to be the best, to act with integrity and to take personal responsibility for our actions.</p>
+                <button type="button" class="flex items-center gap-10 text-[17px] bg-[#00003c] hover:bg-[#9ad2ff] hover:text-[#00003c] text-white p-6 rounded-[15px] mt-10">Download Brochure <i class="fa-solid fa-arrow-down"></i></button>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-10 lg:w-3/5">
+                <div>
+                    <img src="/image/sun.svg" alt="" class="mb-6 md:mb-10">
+                    <p class="text-[16px] mb-3">Being brave</p>
+                    <p class="text-[14px] text-[#8587a4]">New ideas drive change, so we constantly innovate and take on new challenges, that's what makes us pioneers.</p>
+                </div>
+                <div>
+                    <img src="/image/heart.svg" alt="" class="mb-6 md:mb-10">
+                    <p class="text-[16px] mb-3">Being human</p>
+                    <p class="text-[14px] text-[#8587a4]">Our approach is driven by what makes us all human, and it has built a creative environment where people can thrive.</p>
+                </div>
+                <div>
+                    <img src="/image/bar.svg" alt="" class="mb-6 md:mb-10">
+                    <p class="text-[16px] mb-3">Being different</p>
+                    <p class="text-[14px] text-[#8587a4]">By tapping into all of our unique journeys, we can deliver meaningful solutions that make a difference.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- our journey -->
+    <section class="px-5 md:px-10 py-14">
+        <div class="lg:flex lg:justify-between lg:gap-16">
+            <img src="/image/img6.jpg" alt="MLab team" class="rounded-2xl w-full h-72 md:h-96 lg:h-auto lg:w-2/5 object-cover mb-10 lg:mb-0">
+            <div class="lg:w-1/2">
+                <hr class="border-[#e0e0e7] mb-10 lg:mb-16">
+                <p class="text-[22px] md:text-[24px] text-[#00003c] mb-8">Our journey has focused on simplifying payments for businesses.</p>
+                <p class="text-[16px] text-[#595980] mb-8">John Doe has been an active participant in the European entrepreneurial ecosystem for the past 15 years. They have experienced first-hand how hard it is to get funding. So in 2020, they teamed up to solve the challenge that every business faces when trying to secure growth and continuity. That solution is FiTex.</p>
+                <button type="button" class="flex items-center justify-between rounded-2xl hover:bg-red-400 hover:text-white text-[17px] text-[#00003c] bg-white mb-10 p-5 w-full max-w-sm shadow-2xl">Download Brochure <i class="fa-solid fa-arrow-down"></i></button>
+                <div class="flex items-stretch gap-6 md:gap-10 mt-10">
+                    <div class="bg-[#e0e0e7] w-px shrink-0"></div>
+                    <div>
+                        <p class="text-[#68688c] text-[15px]">"Embrace what you don't know, especially in the beginning, because what you don't know can become your greatest asset. It ensures that you will absolutely be doing things differently from everybody else."</p>
+                        <p class="text-[14px] text-[#050202] mt-6">Sara Blakely, SPANX founder</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="mt-14 border-[#e0e0e7]">
+    </section>
+
+    <!-- by the number -->
+    <section class="px-5 md:px-10 pb-14">
+        <div class="max-w-2xl">
+            <p class="text-[12px] text-[#5E566A] leading-8">By the Number</p>
+            <p class="text-[22px] md:text-[24px] text-[#00003C]">We have the scale, stability, and experience to support your success, our global growth is driven by world-class employees and satisfied customers.</p>
+            <p class="text-[17px] text-[#595980] mt-5">Powered by a global team of 225,000+ diverse and passionate people across 60 countries.</p>
+        </div>
+    </section>
+
+    <!-- let's build -->
+    <section class="bg-[url('/image/bg12.jpg')] bg-no-repeat bg-cover bg-center">
+        <div class="px-5 md:px-10 py-16 md:py-24 flex md:justify-end">
+            <div class="flex flex-col gap-8">
+                <h2 class="text-[44px] md:text-[56px] lg:text-[70px] leading-tight text-[#00003c]">Let's build for <br>the future.</h2>
+                <div class="flex flex-wrap items-center gap-6 md:gap-10">
+                    <button type="button" class="text-[17px] bg-white text-[#00003c] p-5 gap-10 flex justify-between rounded-2xl items-center w-full sm:w-80">Career opportunities <span>&nearr;</span></button>
+                    <p class="text-[16px] text-[#595980] hidden lg:block">Join a team that's focused on <br>bringing the future forward.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- milestones -->
+    <section class="bg-[#000048] px-5 md:px-10 py-14 md:py-20">
+        <div class="text-center max-w-3xl mx-auto">
+            <p class="text-white text-[18px] md:text-[22px]">Our milestones</p>
+            <h2 class="text-[#9ad2ff] text-[28px] md:text-[34px] lg:text-[42px] leading-tight mt-3">Here are some of the biggest milestones we've crossed along the way.</h2>
+        </div>
+
+        <div class="flex snap-x snap-mandatory overflow-x-auto gap-4 py-10">
+            <div class="bg-white w-64 shrink-0 rounded-2xl snap-center overflow-hidden">
+                <img src="/image/h1.jpg" alt="" class="w-full h-40 object-cover">
+                <div class="p-5">
+                    <p class="text-[#00004e] text-[16px]">Present</p>
+                    <div class="bg-[#9ad2ff] w-10 h-[3px] rounded-2xl mt-3"></div>
+                    <p class="text-[#9998a5] text-[14px] mt-3">We have more than 50 offices worldwide, providing instruction in 27 languages.</p>
+                </div>
+            </div>
+            <div class="bg-white w-64 shrink-0 rounded-2xl snap-center overflow-hidden">
+                <img src="/image/h2.jpg" alt="" class="w-full h-40 object-cover">
+                <div class="p-5">
+                    <p class="text-[#00004e] text-[16px]">May 2020</p>
+                    <div class="bg-[#9ad2ff] w-10 h-[3px] rounded-2xl mt-3"></div>
+                    <p class="text-[#9998a5] text-[14px] mt-3">By May 2020 we landed our 100th client engagement. Of course it's about quality over quantity, but we're proud of the many lasting client relationships we've created.</p>
+                </div>
+            </div>
+            <div class="bg-white w-64 shrink-0 rounded-2xl snap-center overflow-hidden">
+                <img src="/image/h3.jpg" alt="" class="w-full h-40 object-cover">
+                <div class="p-5">
+                    <p class="text-[#00004e] text-[16px]">Sep 2014</p>
+                    <div class="bg-[#9ad2ff] w-10 h-[3px] rounded-2xl mt-3"></div>
+                    <p class="text-[#9998a5] text-[14px] mt-3">In the early years of MLab, we were still figuring out what we wanted to be when we grew up. We hadn't yet narrowed our focus to service private equity-backed companies, but the fall of 2014 marked a turning point.</p>
+                </div>
+            </div>
+            <div class="bg-white w-64 shrink-0 rounded-2xl snap-center overflow-hidden">
+                <img src="/image/h4.jpg" alt="" class="w-full h-40 object-cover">
+                <div class="p-5">
+                    <p class="text-[#00004e] text-[16px]">Sep 1997</p>
+                    <div class="bg-[#9ad2ff] w-10 h-[3px] rounded-2xl mt-3"></div>
+                    <p class="text-[#9998a5] text-[14px] mt-3">By Sep 1997, we outgrew the corner office we had been borrowing from one of our investors.</p>
+                </div>
+            </div>
+            <div class="bg-white w-64 shrink-0 rounded-2xl snap-center overflow-hidden">
+                <img src="/image/h6.jpg" alt="" class="w-full h-40 object-cover">
+                <div class="p-5">
+                    <p class="text-[#00004e] text-[16px]">May 1990</p>
+                    <div class="bg-[#9ad2ff] w-10 h-[3px] rounded-2xl mt-3"></div>
+                    <p class="text-[#9998a5] text-[14px] mt-3">...and not just any client. The U.S. LT hired MLab in 1990, entrusting us to develop an investment model that would enable prediction as to which research grant would yield the most value. As they say in LT, anchors aweigh!</p>
+                </div>
+            </div>
+            <div class="bg-white w-64 shrink-0 rounded-2xl snap-center overflow-hidden">
+                <img src="/image/h6.jpg" alt="" class="w-full h-40 object-cover">
+                <div class="p-5">
+                    <p class="text-[#00004e] text-[16px]">Dec 1998</p>
+                    <div class="bg-[#9ad2ff] w-10 h-[3px] rounded-2xl mt-3"></div>
+                    <p class="text-[#9998a5] text-[14px] mt-3">Like the musical instruments, MLab's business plan centered around the ability to expand and contract. We recognized the need for a flexible financial consulting model, and in November 1988, we opened our doors.</p>
+                </div>
+            </div>
+        </div>
+
+        <p class="text-white text-[14px] text-center mt-10 md:mt-20">Disclaimer: <span class="text-[#f1f0f8]">All views and opinions that may be expressed in the posts on this page as well as post emanating</span></p>
+    </section>
+
+    <!-- locations -->
+    <section class="px-5 md:px-10 py-14">
+        <div class="md:flex md:justify-between md:gap-10">
+            <p class="text-[12px] mb-6 md:mb-0">Our Locations</p>
+            <div class="mb-8 md:mb-0">
+                <p class="text-[44px] text-[#00003c]">US</p>
+                <p class="text-[15px] text-[#595980]">2307 Beverley Rd Brooklyn, NY <br>11226 United States.</p>
+                <div class="flex flex-col gap-2 mt-3">
+                    <a href="#" class="text-[15px] underline">office.us@example.com</a>
+                    <a href="#" class="text-[15px] underline">+1 900 135 7999</a>
+                </div>
+            </div>
+            <div class="mb-8 md:mb-0">
+                <p class="text-[44px] text-[#00003c]">UK</p>
+                <p class="text-[15px] text-[#595980]">2307 Beverley Rd Brooklyn, NY <br>11226 United States.</p>
+                <div class="flex flex-col gap-2 mt-3">
+                    <a href="#" class="text-[15px] underline">office.us@example.com</a>
+                    <a href="#" class="text-[15px] underline">+1 900 135 7999</a>
+                </div>
+            </div>
             <div>
-                <p class="text-[#9ad2ff] mb-7 text-[56px] md:text-[36px] lg:text-[56px]">A partner who grows <span class="text-white">your <br class="md:hidden lg:block">business.</span></p>
-                <div class="flex gap-10">
-                    <button type="button" class="text-[17px] hover:bg-red-600 hover:text-white bg-amber-50 p-4 rounded-2xl flex justify-between gap-20">Free Case Evaluation <span>&nearr;</span></button>
-                    <p class="text-white text-[16px] md:text-[12px] lg:text-[16px]">We believe in growing with our clients <br class="md:hidden lg:block">and offering tailored <br class="md:block lg:hidden">solutions.</p>
+                <p class="text-[44px] text-[#00003c]">IN</p>
+                <p class="text-[15px] text-[#595980]">2307 Beverley Rd Brooklyn, NY <br>11226 United States.</p>
+                <div class="flex flex-col gap-2 mt-3">
+                    <a href="#" class="text-[15px] underline">office.us@example.com</a>
+                    <a href="#" class="text-[15px] underline">+1 900 135 7999</a>
                 </div>
             </div>
-            <div class="mt-20">
-                <ul class="flex text-white justify-between  text-[12px]">
-                    <li><a href="#" class="hover:text-[#9ad2ff]">COMPANY</a></li>
-                    <li><a href="#" class="hover:text-[#9ad2ff]">OUR PEOPLE</a></li>
-                    <li><a href="#" class="hover:text-[#9ad2ff]">SOLUTIONS</a></li>
-                    <li><a href="#" class="hover:text-[#9ad2ff]">MISSION AND VISION</a></li>
-                    <li><a href="#" class="hover:text-[#9ad2ff]">SUCESS STORIES</a></li>
-                    <li><a href="#" class="hover:text-[#9ad2ff]">FAQS</a></li>
-                    <li><a href="#" class="hover:text-[#9ad2ff]">CAREERS</a></li>
-                    <li><a href="#" class="hover:text-[#9ad2ff]">CONTANT US</a></li>
-                </ul>
+        </div>
+
+        <hr class="mt-14 border-[#e0e0e7]">
+
+        <!-- leadership -->
+        <div class="mt-14">
+            <div class="lg:flex lg:gap-20">
+                <p class="text-[#5e566a] text-[12px] mb-4 lg:mb-0 lg:shrink-0">LEADERSHIP TEAM</p>
+                <div>
+                    <p class="text-[30px] md:text-[34px] lg:text-[44px] leading-tight text-[#00003c]">Leading with Value-Driven Principles and a People-First Approach</p>
+                    <p class="text-[16px] text-[#595980] mt-6">We are all passionate and committed to delivering high quality services to our clients.</p>
+                </div>
             </div>
-            <div class="flex gap-30 mt-20 md:block lg:flex">
+
+            <div class="mt-14 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 md:gap-10">
                 <div>
-                    <p class="text-[24px] text-[#9ad2ff]">New York</p>
-                    <div class="text-[15px] text-white mt-10">
-                        <p class="text-[#a3a3b9]">2307 Beverley Rd Brooklyn, NY <br>11226 United States.</p>
-                        <p>office.us@example.com</p>
-                        <p>+1 900 135 7999</p>
-                    </div>
-                </div>
-                <div>
-                    <p class="text-[24px] text-[#9ad2ff]">Tonronto</p>
-                    <div class="text-[15px] text-white">
-                        <p class="text-[#a3a3b9] mt-10">36 Toronto Street, Suite 600 <br>Toronto, ON M5C2C5.</p>
-                        <div>office.ca@example.com</div>
-                        <p>+1 900 246 8999</p>
-                    </div>
-                </div>
-                <div>
-                    <p class="text-[24px] text-[#9ad2ff]">Subscribe to our latest insights</p>
-                    <div class="text-[15px] text-white mt-10">
-                        <p class="text-[#a3a3b9]">Keep up to date with technology and innovation, now and in the future.</p>
-                        <div class="border w-120 flex justify-between p-5 rounded-2xl">
-                            <input type="text" name="" id="" placeholder="Enter your email address">
-                            <button type="button">Sign up</button>
+                    <img src="/image/1.jpeg" alt="Mark Potter" class="rounded-2xl w-full aspect-square object-cover grayscale hover:grayscale-0">
+                    <div class="mt-4">
+                        <p class="text-[#00003c] text-[17px]">Mark Potter</p>
+                        <p class="text-[#addaff] text-[12px]">President &amp; CEO</p>
+                        <div class="flex flex-col gap-2 mt-3">
+                            <a href="#" class="underline text-[14px] break-all">info@example.com</a>
+                            <a href="#" class="hover:text-red-400 underline text-[14px]">+1 900 135 7999</a>
                         </div>
                     </div>
                 </div>
+                <div>
+                    <img src="/image/3.jpeg" alt="Andrew Kinzer" class="rounded-2xl w-full aspect-square object-cover grayscale hover:grayscale-0">
+                    <div class="mt-4">
+                        <p class="text-[#00003c] text-[17px]">Andrew Kinzer</p>
+                        <p class="text-[#addaff] text-[12px]">Chief Sales Officer</p>
+                        <div class="flex flex-col gap-2 mt-3">
+                            <a href="#" class="underline text-[14px] break-all">info@example.com</a>
+                            <a href="#" class="hover:text-red-400 underline text-[14px]">+1 900 135 7999</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="/image/10.jpeg" alt="Anna Baird" class="rounded-2xl w-full aspect-square object-cover grayscale hover:grayscale-0">
+                    <div class="mt-4">
+                        <p class="text-[#00003c] text-[17px]">Anna Baird</p>
+                        <p class="text-[#addaff] text-[12px]">Chief Information</p>
+                        <div class="flex flex-col gap-2 mt-3">
+                            <a href="#" class="underline text-[14px] break-all">info@example.com</a>
+                            <a href="#" class="hover:text-red-400 underline text-[14px]">+1 900 135 7999</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="/image/2.jpeg" alt="Gordon Hempton" class="rounded-2xl w-full aspect-square object-cover grayscale hover:grayscale-0">
+                    <div class="mt-4">
+                        <p class="text-[#00003c] text-[17px]">Gordon Hempton</p>
+                        <p class="text-[#addaff] text-[12px]">President of Capital</p>
+                        <div class="flex flex-col gap-2 mt-3">
+                            <a href="#" class="underline text-[14px] break-all">info@example.com</a>
+                            <a href="#" class="hover:text-red-400 underline text-[14px]">+1 900 135 7999</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="/image/7.jpeg" alt="Katie Doyle" class="rounded-2xl w-full aspect-square object-cover grayscale hover:grayscale-0">
+                    <div class="mt-4">
+                        <p class="text-[#00003c] text-[17px]">Katie Doyle</p>
+                        <p class="text-[#addaff] text-[12px]">Chief Marketing</p>
+                        <div class="flex flex-col gap-2 mt-3">
+                            <a href="#" class="underline text-[14px] break-all">info@example.com</a>
+                            <a href="#" class="hover:text-red-400 underline text-[14px]">+1 900 135 7999</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="/image/4%20(1).jpeg" alt="Matt Millen" class="rounded-2xl w-full aspect-square object-cover grayscale hover:grayscale-0">
+                    <div class="mt-4">
+                        <p class="text-[#00003c] text-[17px]">Matt Millen</p>
+                        <p class="text-[#addaff] text-[12px]">Chief Strategy</p>
+                        <div class="flex flex-col gap-2 mt-3">
+                            <a href="#" class="underline text-[14px] break-all">info@example.com</a>
+                            <a href="#" class="hover:text-red-400 underline text-[14px]">+1 900 135 7999</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="/image/5.jpeg" alt="Wes Hather" class="rounded-2xl w-full aspect-square object-cover grayscale hover:grayscale-0">
+                    <div class="mt-4">
+                        <p class="text-[#00003c] text-[17px]">Wes Hather</p>
+                        <p class="text-[#addaff] text-[12px]">Chief People Officer</p>
+                        <div class="flex flex-col gap-2 mt-3">
+                            <a href="#" class="underline text-[14px] break-all">info@example.com</a>
+                            <a href="#" class="hover:text-red-400 underline text-[14px]">+1 900 135 7999</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="/image/9.jpeg" alt="Martin Rues" class="rounded-2xl w-full aspect-square object-cover grayscale hover:grayscale-0">
+                    <div class="mt-4">
+                        <p class="text-[#00003c] text-[17px]">Martin Rues</p>
+                        <p class="text-[#addaff] text-[12px]">Chief Technology</p>
+                        <div class="flex flex-col gap-2 mt-3">
+                            <a href="#" class="underline text-[14px] break-all">info@example.com</a>
+                            <a href="#" class="hover:text-red-400 underline text-[14px]">+1 900 135 7999</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="/image/61.jpeg" alt="Sarah Imbach" class="rounded-2xl w-full aspect-square object-cover grayscale hover:grayscale-0">
+                    <div class="mt-4">
+                        <p class="text-[#00003c] text-[17px]">Sarah Imbach</p>
+                        <p class="text-[#addaff] text-[12px]">Financial Services</p>
+                        <div class="flex flex-col gap-2 mt-3">
+                            <a href="#" class="underline text-[14px] break-all">info@example.com</a>
+                            <a href="#" class="hover:text-red-400 underline text-[14px]">+1 900 135 7999</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="/image/8.jpeg" alt="Archana Deskus" class="rounded-2xl w-full aspect-square object-cover grayscale hover:grayscale-0">
+                    <div class="mt-4">
+                        <p class="text-[#00003c] text-[17px]">Archana Deskus</p>
+                        <p class="text-[#addaff] text-[12px]">Chief Financial</p>
+                        <div class="flex flex-col gap-2 mt-3">
+                            <a href="#" class="underline text-[14px] break-all">info@example.com</a>
+                            <a href="#" class="hover:text-red-400 underline text-[14px]">+1 900 135 7999</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-[64px] md:text-[78px] flex items-start"><i class="fa-solid fa-plus"></i></div>
             </div>
-        </div>  
-        <div class="p-10 text-center bg-white text-[14px]">Copyright © 2023 MLab. Designed & Developed by <span>LineThemes</span> only on <span>Envato Market.</span></div>
-        <!-- footer  -->
-    </div>
+        </div>
+    </section>
+
+    <!-- partner ecosystem -->
+    <section class="bg-[#eff4f8] px-5 md:px-10 py-14">
+        <div class="md:flex md:justify-end">
+            <div class="md:max-w-2xl">
+                <p class="capitalize text-[#5e566a] mb-5 text-[12px]">Our Partner Ecosystem</p>
+                <p class="text-[#00003c] text-[20px] md:text-[24px]">Our collaborative ecosystem of market leaders brings together FinTex's world-class innovation and deep partner expertise to innovate for the future and drive value.</p>
+                <a href="#" class="inline-block mt-10 text-[15px] underline">Click here to partner with us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-[#00003c] px-5 md:px-10 py-14">
+        <div>
+            <p class="text-[#9ad2ff] mb-7 text-[36px] md:text-[48px] lg:text-[56px] leading-tight">A partner who grows <span class="text-white">your business.</span></p>
+            <div class="flex flex-col md:flex-row md:items-center gap-6 md:gap-10">
+                <button type="button" class="text-[17px] hover:bg-red-600 hover:text-white bg-amber-50 p-4 rounded-2xl flex justify-between items-center gap-10 w-fit">Free Case Evaluation <span>&nearr;</span></button>
+                <p class="text-white text-[16px]">We believe in growing with our clients and offering tailored solutions.</p>
+            </div>
+        </div>
+
+        <ul class="flex flex-wrap gap-x-8 gap-y-4 mt-16 text-white text-[12px]">
+            <li><a href="#" class="hover:text-[#9ad2ff]">COMPANY</a></li>
+            <li><a href="#" class="hover:text-[#9ad2ff]">OUR PEOPLE</a></li>
+            <li><a href="#" class="hover:text-[#9ad2ff]">SOLUTIONS</a></li>
+            <li><a href="#" class="hover:text-[#9ad2ff]">MISSION AND VISION</a></li>
+            <li><a href="#" class="hover:text-[#9ad2ff]">SUCCESS STORIES</a></li>
+            <li><a href="#" class="hover:text-[#9ad2ff]">FAQS</a></li>
+            <li><a href="#" class="hover:text-[#9ad2ff]">CAREERS</a></li>
+            <li><a href="#" class="hover:text-[#9ad2ff]">CONTACT US</a></li>
+        </ul>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-16">
+            <div>
+                <p class="text-[24px] text-[#9ad2ff]">New York</p>
+                <div class="text-[15px] text-white mt-6 flex flex-col gap-2">
+                    <p class="text-[#a3a3b9]">2307 Beverley Rd Brooklyn, NY <br>11226 United States.</p>
+                    <p>office.us@example.com</p>
+                    <p>+1 900 135 7999</p>
+                </div>
+            </div>
+            <div>
+                <p class="text-[24px] text-[#9ad2ff]">Toronto</p>
+                <div class="text-[15px] text-white mt-6 flex flex-col gap-2">
+                    <p class="text-[#a3a3b9]">36 Toronto Street, Suite 600 <br>Toronto, ON M5C2C5.</p>
+                    <p>office.ca@example.com</p>
+                    <p>+1 900 246 8999</p>
+                </div>
+            </div>
+            <div class="md:col-span-2 lg:col-span-1">
+                <p class="text-[24px] text-[#9ad2ff]">Subscribe to our latest insights</p>
+                <div class="text-[15px] text-white mt-6">
+                    <p class="text-[#a3a3b9] mb-5">Keep up to date with technology and innovation, now and in the future.</p>
+                    <form class="border border-white/50 flex items-center justify-between gap-3 p-4 rounded-2xl w-full max-w-md">
+                        <input type="email" name="email" placeholder="Enter your email address" class="bg-transparent outline-none flex-1 min-w-0" required>
+                        <button type="submit">Sign up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="px-5 py-8 text-center bg-white text-[14px]">Copyright © 2023 MLab. Designed &amp; Developed by <span>LineThemes</span> only on <span>Envato Market.</span></div>
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            const open = mobileMenu.classList.toggle('hidden') === false;
+            menuBtn.setAttribute('aria-expanded', open);
+        });
+    </script>
 </body>
 </html>

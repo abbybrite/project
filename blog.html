@@ -3,369 +3,358 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blog | MLab</title>
     <link href="./src/output.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/04d567be89.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <div>
-        <div class="bg-white text-[#6c8099] items-center flex gap-10 p-[10px] sm:flex sm:justify-center md:flex md:justify-center lg:flex lg:justify-around">
-            <div class="md:hidden sm:hidden lg:block">Have any <br class="md:hidden sm:hidden lg:block">questions:</div>
-            <div class="flex items-center gap-5">
-                <i class="fa-solid fa-phone"></i>
-                <p class="text-[14px]">Toll <br class="md:hidden sm:hidden lg:block">free</p>
-                <p class="">+1.800.712.1988</p>
-            </div>
-            <div class="flex gap-10">
-                <div class="flex gap-15 sm:gap-2 lg:gap-15">
-                    <img src="" alt="">
-                    <p class="text-[14px]">Email our <br class="md:hidden lg:block">experts:</p>
-                    <p class="text-[#00003c] hover:text-[#bd20203c] border-b text-[14px]">Ask a <br class="md:hidden sm:hidden lg:block">question</p>
-                </div>
-                <div class="flex gap-20 md:hidden sm:hidden lg:block">
-                    <div class="flex gap-15 text-[15px] md:hidden sm:hidden lg:block lg:flex">
-                        <div>
-                            <div></div>
-                            <a href="#">SHOP</a>
-                        </div>
-                        <div class="flex gap-5">
-                            <!-- <div class="bg-gray-500 w-1 h-[15px] rounded"></div> -->
-                            <a href="#" class="border-l-2 pl-2 h-4">CAREERS</a>
-                        </div>
-                        <div class="flex gap-5">
-                            <!-- <div class="bg-gray-500 w-1 h-[15px] rounded"></div> -->
-                            <a href="#" class="border-l-2 items-center pl-2 h-4 flex items-center">DOCUMENTATION</a>
-                        </div>
-                        <div class="flex gap-5">
-                            <!-- <div class="bg-gray-500 w-1 h-[15px] rounded"></div> -->
-                            <a href="#" class="border-l-2 items-center bottom-2 flex pl-2 h-4">SUPPORT <br>CENTRAL</a>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--top-->
-        
-        <!-- nav -->
-        <div class="bg-[url('/image/modern.jpg')] bg-cover">
+<body class="overflow-x-hidden">
 
-            <div class="bg-[#14154b]/50">
-                <div class="bg-white/30 backdrop-blur-md p-2">
-                    <p class=" text-center text-white text-[14px] md:hidden lg:block">Our Awards: 2023 Red Herring Top 100 Asia Winners Official Announcement</p>
-                    <div class="flex justify-around items-center text-[14px]">
-                        <div class="flex items-center gap-3 text-white">
-                            <img src="/image/logo@2x.png" alt="" class="w-40">
-                            <!-- <p class="">Financial <br>And Technolgy <br>Consulting</p> -->
-                        </div>
-                        <div class="flex gap-5 text-white text-[14px] top-10 md:hidden lg:block lg:flex relative">
-                            <div class="group relative flex justify-center">
-                                <a href="/index.html" class="text-[#81bae8] h-20 flex">Homepage <i class="fa-solid fa-angle-down"></i></a>
-                                <div class="hidden group-hover:block absolute top-15">
-                                    <div class="flex flex-col gap-5 bg-white text-center p-2 rounded-2xl text-[#00003c] w-40">
-                                        <div class="hover:bg-red-600 hover:w-full p-2"><a href="#">Homepage 1</a></div>
-                                        <div><a href="#">Homepage 2</a></div>
-                                        <div><a href="#">Homepage 3</a></div>
-                                    </div>
+    <!-- top -->
+    <div class="bg-white text-[#6c8099] flex items-center justify-between lg:justify-around gap-4 px-4 py-2 text-[12px] lg:text-[14px]">
+        <div class="hidden lg:block">Have any questions:</div>
+        <div class="flex items-center gap-2 lg:gap-4">
+            <i class="fa-solid fa-phone"></i>
+            <p>Toll free</p>
+            <p>+1.800.712.1988</p>
+        </div>
+        <div class="flex items-center gap-2 lg:gap-4">
+            <p class="hidden md:block">Email our experts:</p>
+            <a href="#" class="text-[#00003c] hover:text-[#bd2020] border-b">Ask a question</a>
+        </div>
+        <div class="hidden lg:flex items-center gap-5 text-[15px]">
+            <a href="#">SHOP</a>
+            <a href="#" class="border-l-2 pl-3">CAREERS</a>
+            <a href="#" class="border-l-2 pl-3">DOCUMENTATION</a>
+            <a href="#" class="border-l-2 pl-3">SUPPORT CENTRAL</a>
+        </div>
+    </div>
+
+    <!-- hero -->
+    <div class="bg-[url('/image/modern.jpg')] bg-cover bg-center">
+        <div class="bg-[#14154b]/50">
+
+            <!-- nav -->
+            <header class="relative bg-white/30 backdrop-blur-md px-5 py-4 text-white text-[14px]">
+                <p class="hidden lg:block text-center mb-3">Our Awards: 2023 Red Herring Top 100 Asia Winners Official Announcement</p>
+                <div class="flex items-center justify-between lg:justify-around">
+                    <a href="/index.html"><img src="/image/logo@2x.png" alt="MLab logo" class="w-28 md:w-40"></a>
+
+                    <nav class="hidden lg:flex items-center gap-6">
+                        <div class="group relative">
+                            <a href="/index.html" class="hover:text-[#81bae8] flex items-center gap-1 py-4">Homepage <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="hidden group-hover:block absolute left-0 top-full z-50">
+                                <div class="flex flex-col bg-white text-center p-2 rounded-2xl text-[#00003c] w-40">
+                                    <a href="#" class="p-2 rounded-lg hover:bg-[#9ad2ff]">Homepage 1</a>
+                                    <a href="#" class="p-2 rounded-lg hover:bg-[#9ad2ff]">Homepage 2</a>
+                                    <a href="#" class="p-2 rounded-lg hover:bg-[#9ad2ff]">Homepage 3</a>
                                 </div>
-                            </div>
-                            <div class=" group relative flex justify-center">
-                                <a href="/about.html" class="hover:text-[#81bae8]">About <i class="fa-solid fa-angle-down"></i></a>
-                                <div class="hidden group-hover:block absolute top-15">
-                                    <div class="flex flex-col gap-5 bg-white p-5 rounded-2xl text-[#00003c] w-50">
-                                        <div><a href="/about.html">Company</a></div>
-                                        <div><a href="#">Our people</a></div>
-                                        <div><a href="#">Mission and vision</a></div>
-                                        <div><a href="#">Solutions</a></div>
-                                        <div><a href="#">News and Events</a></div>
-                                        <div><a href="#">FAQs</a></div>
-                                        <div><a href="#">Career</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="group relative flex justify-center">
-                                <a href="#" class="hover:text-[#81bae8]">Solution<span><i class="fa-solid fa-angle-down"></i></span></a>
-                                <div class="hidden group-hover:block absolute top-15">
-                                    <div class="flex justify-around bg-white p-5 rounded-2xl text-[#00003c] w-120">
-                                        <div>
-                                            <p class="text-[9px] mb-5">USE CASES</p>
-                                            <div class="flex flex-col gap-3">
-                                                <div><a href="#"><img src=""alt=""> <span>Bank Credit Collection</span></a></div>
-                                                <div><a href="#">Invoicing & Billing Platform</a></div>
-                                                <div><a href="#">Online Platform for SME</a></div>
-                                                <div><a href="#">Stock Trading Signals</a></div>
-                                                <div><a href="#">Team Extension for eWallet</a></div>
-                                                <div><a href="#">Wealth Management</a></div>
-                                            </div>
-                                        </div>
-                                        <div class="bg-gray-500 h-60 w-[1px]"></div>
-                                        <div>
-                                            <p class="text-[9px] mb-5">FOR INDUSTRIES</p>
-                                            <div class="flex flex-col gap-3"">
-                                                <div><a href="#"><img src="" alt=""> <span>Banking and Finance</span></a></div>
-                                                <div><a href="#">Healthcare & Life Sciences</a></div>
-                                                <div><a href="#">Technology & Software</a></div>
-                                                <div><a href="#">Transportation & Logistics</a></div>
-                                                <div><a href="#">Ecommerce and Retail</a></div>
-                                                <div><a href="#">Education and Training</a></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="group relative flex justify-center">
-                                <a href="/case.html" class="hover:text-[#81bae8]">Case studies<span><i class="fa-solid fa-angle-down"></i></span></a>
-                                <div class="hidden group-hover:block absolute top-15">
-                                    <div class="flex flex-col gap-5 bg-white p-5 rounded-2xl text-[#00003c] w-50">
-                                        <div><a href="/case.html">Case Studies Style 1</a></div>
-                                        <div><a href="#">Case Studies Style 2</a></div>
-                                        <div><a href="#">Case Studies Style 3</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="hover:text-[#81bae8]">
-                                <a href="/blog.html">Blog<span></span></a>
-                            </div>
-                            <div class="hover:text-[#81bae8]">
-                                <a href="/contact.html">contact us<span></span></a>
-                            </div>
-                            <div>
-                                <button type="button" class="bg-[#81bae8] text-[14px] text-[#00003c] rounded-2xl p-1 w-[10rem] hover:bg-red-600 hover:text-white">Get Started</button>
                             </div>
                         </div>
-                        <div class="flex gap-10 items-center">
+
+                        <div class="group relative">
+                            <a href="/about.html" class="hover:text-[#81bae8] flex items-center gap-1 py-4">About <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="hidden group-hover:block absolute left-0 top-full z-50">
+                                <div class="flex flex-col gap-3 bg-white p-5 rounded-2xl text-[#00003c] w-52">
+                                    <a href="/about.html" class="hover:text-[#4a90d9]">Company</a>
+                                    <a href="#" class="hover:text-[#4a90d9]">Our people</a>
+                                    <a href="#" class="hover:text-[#4a90d9]">Mission and vision</a>
+                                    <a href="#" class="hover:text-[#4a90d9]">Solutions</a>
+                                    <a href="#" class="hover:text-[#4a90d9]">News and Events</a>
+                                    <a href="#" class="hover:text-[#4a90d9]">FAQs</a>
+                                    <a href="#" class="hover:text-[#4a90d9]">Career</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="group relative">
+                            <a href="#" class="hover:text-[#81bae8] flex items-center gap-1 py-4">Solution <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="hidden group-hover:block absolute left-1/2 -translate-x-1/2 top-full z-50">
+                                <div class="flex gap-6 bg-white p-6 rounded-2xl text-[#00003c] w-[32rem]">
+                                    <div class="flex-1">
+                                        <p class="text-[10px] mb-4">USE CASES</p>
+                                        <div class="flex flex-col gap-3">
+                                            <a href="#">Bank Credit Collection</a>
+                                            <a href="#">Invoicing &amp; Billing Platform</a>
+                                            <a href="#">Online Platform for SME</a>
+                                            <a href="#">Stock Trading Signals</a>
+                                            <a href="#">Team Extension for eWallet</a>
+                                            <a href="#">Wealth Management</a>
+                                        </div>
+                                    </div>
+                                    <div class="bg-gray-300 w-px"></div>
+                                    <div class="flex-1">
+                                        <p class="text-[10px] mb-4">FOR INDUSTRIES</p>
+                                        <div class="flex flex-col gap-3">
+                                            <a href="#">Banking and Finance</a>
+                                            <a href="#">Healthcare &amp; Life Sciences</a>
+                                            <a href="#">Technology &amp; Software</a>
+                                            <a href="#">Transportation &amp; Logistics</a>
+                                            <a href="#">Ecommerce and Retail</a>
+                                            <a href="#">Education and Training</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="group relative">
+                            <a href="/case.html" class="hover:text-[#81bae8] flex items-center gap-1 py-4">Case studies <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="hidden group-hover:block absolute left-0 top-full z-50">
+                                <div class="flex flex-col gap-3 bg-white p-5 rounded-2xl text-[#00003c] w-52">
+                                    <a href="/case.html" class="hover:text-[#4a90d9]">Case Studies Style 1</a>
+                                    <a href="#" class="hover:text-[#4a90d9]">Case Studies Style 2</a>
+                                    <a href="#" class="hover:text-[#4a90d9]">Case Studies Style 3</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="/blog.html" class="text-[#81bae8]">Blog</a>
+                        <a href="/contact.html" class="hover:text-[#81bae8]">Contact us</a>
+                        <button type="button" class="bg-[#81bae8] text-[#00003c] rounded-2xl py-2 px-8 hover:bg-red-600 hover:text-white">Get Started</button>
+                    </nav>
+
+                    <div class="flex items-center gap-6">
+                        <div class="hidden md:flex gap-4 text-[16px]">
                             <i class="fa-brands fa-facebook"></i>
                             <i class="fa-brands fa-twitter"></i>
                             <i class="fa-brands fa-linkedin"></i>
                             <i class="fa-solid fa-cart-arrow-down"></i>
-                            <div class="flex gap-4 md:block lg:hidden">
-                                <img src="kl" alt="gn">
-                                <button type="button" class="bg-white p-2 rounded-2xl">MENU</button>
-                            </div>
                         </div>
+                        <button type="button" id="menu-btn" class="lg:hidden bg-white text-[#00003c] px-4 py-1 rounded-2xl text-[12px]" aria-expanded="false" aria-controls="mobile-menu">MENU</button>
                     </div>
                 </div>
-                <!-- nav -->
-        
-                <!-- Investing -->
-                <div class="m-10 mt-55">
-                    <h2 class="text-[#9ad2ff] text-[70px] md:text-[60px] lg:text-[70px]">Latest News & Insights</span></h2>
-                    <div class="flex gap-10 items-center mt-10">
-                        <button type="button" class="bg-white hover:bg-[#81bae8] text-[#00003c] text-[14px] flex justify-between p-4.5 text-center rounded-2xl w-[15rem]">Talk to our Experts <span class="">&nearrow;</span></button>
-                        <p class="text-white text-[13px]">Here's how our fintech advisors <br class="md:hidden lg:block">can bring your idea to life</p>
+
+                <!-- mobile menu -->
+                <div id="mobile-menu" class="hidden lg:hidden absolute left-0 right-0 top-full z-50 bg-white text-[#00003c] p-5 shadow-lg">
+                    <div class="flex flex-col gap-4">
+                        <a href="/index.html">Homepage</a>
+                        <a href="/about.html">About</a>
+                        <a href="#">Solution</a>
+                        <a href="/case.html">Case studies</a>
+                        <a href="/blog.html" class="text-[#4a90d9]">Blog</a>
+                        <a href="/contact.html">Contact us</a>
+                        <button type="button" class="bg-[#81bae8] rounded-2xl py-2 hover:bg-red-600 hover:text-white">Get Started</button>
                     </div>
-                </div><hr class="ml-6 mr-6 mt-6 text-white">
-                <!-- Investing -->
+                </div>
+            </header>
+
+            <!-- title -->
+            <div class="px-5 md:px-10 pt-16 md:pt-32 lg:pt-52">
+                <h1 class="text-[#9ad2ff] text-[40px] md:text-[60px] lg:text-[70px] leading-tight">Latest News &amp; Insights</h1>
+                <div class="flex flex-wrap items-center gap-5 lg:gap-10 mt-10">
+                    <button type="button" class="bg-white hover:bg-[#81bae8] text-[#00003c] text-[14px] flex justify-between items-center gap-4 py-4 px-5 rounded-2xl w-56 md:w-60">Talk to our Experts <span>&nearr;</span></button>
+                    <p class="text-white text-[13px] hidden md:block">Here's how our fintech advisors <br>can bring your idea to life</p>
+                </div>
+                <hr class="mt-10 border-white/40">
             </div>
+            <div class="h-6"></div>
         </div>
-        <div class="p-10">
-            <div class="grid grid-cols-3 gap-10 mt-20 md:grid-cols-2 lg:grid-cols-3">
-                <div class="">
-                    <h2 class="text-[21px] text-[#00003C] hover:text-red-400 leading-[1.5rem]">Amazon vs Visa: what does it <br>mean for the BNPL market?</h2>
-                    <div class="text-[11px] flex gap-2 items-center mt-4 mb-4">
-                        <img src="/image/3.PNG" alt="" class="h-5 w-5 rounded-2xl">
-                        <p class="text-[#595980]">By <span class="text-[#9AD2FF]">linethemes</span></p>
-                        <div class="flex gap-2 items-center">
-                            <div class="bg-[#595980] h-[12px] w-[2px]"></div>
-                            <p class="text-[#595980]">August 11, 2023</p>
-                        </div>
-                    </div>
-                    <div class="relative">
-                        <div class="">
-                            <img src="/image/pos.jpg" alt="" class="rounded-2xl">
-                        </div>
-                        <div class="flex gap-10 mt-7 absolute bottom-1 m-5">
-                            <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-30 hover:bg-[#3dd8ff]"># <span>Amazon</span></button>
-                            <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-20 hover:bg-[#3dd8ff]"># <span>Visa</span></button>
-                        </div>
-                    </div>
-                    <p class="text-[15px] text-[#595980] mt-[30px]">The thriving BNPL market has seen setbacks in <br>recent months. Yet, could embedded lending be <br>a solution for lenders avoid...</p>
-                    <div class="flex gap-10 mt-7">
-                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-30 hover:bg-[#3dd8ff]"># <span>Amazon</span></button>
-                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-20 hover:bg-[#3dd8ff]"># <span>Visa</span></button>
-                    </div>
-                </div>
-                <div class="">
-                    <h2 class="text-[21px] text-[#00003C] hover:text-red-400 leading-[1.5rem]">A Guide to Embracing Meaningful <br>Change in Banking</h2>
-                    <div class="text-[11px] flex gap-2 items-center mt-4 mb-4">
-                        <img src="/image/3.PNG" alt="" class="h-5 w-5 rounded-2xl">
-                        <p class="text-[#595980]">By <span class="text-[#9AD2FF]">linethemes</span></p>
-                        <div class="flex gap-2 items-center">
-                            <div class="bg-[#595980] h-[12px] w-[2px]"></div>
-                            <p class="text-[#595980]">August 11, 2023</p>
-                        </div>
-                    </div>
-                    <div class="relative">
-                        <div>
-                            <img src="/image/atm.jpg" alt="" class="rounded-2xl">
-                        </div>
-                        <div class="flex gap-10 mt-7 absolute bottom-1 m-5">
-                            <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-30 hover:bg-[#3dd8ff]"># <span>Amazon</span></button>
-                            <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-20 hover:bg-[#3dd8ff]"># <span>Visa</span></button>
-                        </div>
-                    </div>
-                    <p class="text-[15px] text-[#595980] mt-[30px]">Change is paramount for banks and credit unions <br>attempting to stay current in today’s ever- <br>evolving landscape, including...</p>
-                    <div class="flex gap-5 mt-7">
-                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-30 hover:bg-[#3dd8ff]"># <span>Bank</span></button>
-                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-25 hover:bg-[#3dd8ff]"># <span>Payment</span></button>
-                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-25 hover:bg-[#3dd8ff]"># <span>Technolgy</span></button>
-                    </div>
-                </div>
-                <div class="group relative">
-                    <h2 class="text-[21px] text-[#00003C] hover:text-red-400 leading-[1.5rem]">PayPal launches PYUSD stablecoin <br>for payments and transfers</h2>
-                    <div class="text-[11px] flex gap-2 items-center mt-4 mb-4">
-                        <img src="/image/3.PNG" alt="" class="h-5 w-5 rounded-2xl">
-                        <p class="text-[#595980]">By <span class="text-[#9AD2FF]">linethemes</span></p>
-                        <div class="flex gap-2 items-center">
-                            <div class="bg-[#595980] h-[12px] w-[2px]"></div>
-                            <p class="text-[#595980]">August 11, 2023</p>
-                        </div>
-                    </div>
-                    <div class="relative">
-                        <div>
-                            <img src="/image/pos.jpg" alt="" class="rounded-2xl">
-                        </div>
-                        <div class="flex gap-10 mt-7 absolute bottom-1 m-5">
-                            <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-30 hover:bg-[#3dd8ff]"># <span>Amazon</span></button>
-                            <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-20 hover:bg-[#3dd8ff]"># <span>Visa</span></button>
-                        </div>
-                    </div>
-                    <p class="text-[15px] text-[#595980] mt-[30px]">PayPal is rolling out a stablecoin for payments and <br>transfers, the company announced on Monday. <br>PayPal USD (PYUSD) is is...</p>
-                    <div class="flex gap-5 mt-7">
-                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-30 hover:bg-[#3dd8ff]"># <span>Bank</span></button>
-                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-20 hover:bg-[#3dd8ff]"># <span>Finance</span></button>
-                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-20 hover:bg-[#3dd8ff]"># <span>Paypal</span></button>
-                    </div>
-                </div>
-                <div class="">
-                    <h2 class="text-[21px] text-[#00003C] hover:text-red-400 leading-[1.5rem]">Revolutionizing the Future of Financial Services</h2>
-                    <div class="text-[11px] flex gap-2 items-center mt-4 mb-4">
-                        <img src="/image/3.PNG" alt="" class="h-5 w-5 rounded-2xl">
-                        <p class="text-[#595980]">By <span class="text-[#9AD2FF]">linethemes</span></p>
-                        <div class="flex gap-2 items-center">
-                            <div class="bg-[#595980] h-[12px] w-[2px]"></div>
-                            <p class="text-[#595980]">August 11, 2023</p>
-                        </div>
-                    </div>
-                    <div class="relative">
-                        <div>
-                            <img src="/image/pos.jpg" alt="" class="rounded-2xl">
-                        </div>
-                        <div class="flex gap-10 mt-7 absolute bottom-1 m-5">
-                            <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-30 hover:bg-[#3dd8ff]"># <span>Amazon</span></button>
-                            <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-20 hover:bg-[#3dd8ff]"># <span>Visa</span></button>
-                        </div>
-                    </div>
-                    <p class="text-[15px] text-[#595980] mt-[30px]">Named a “game-changing opportunity for <br>banks” by The Global Treasurer, embedded <br>finance has become a disruptive force in...</p>
-                    <div class="flex gap-5 mt-7">
-                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-30 hover:bg-[#3dd8ff]"># <span>Finance</span></button>
-                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-20 hover:bg-[#3dd8ff]"># <span>Fintech</span></button>
-                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-20 hover:bg-[#3dd8ff]"># <span>Future</span></button>
-                    </div>
-                </div>
-                <div class="">
-                    <h2 class="text-[21px] text-[#00003C] hover:text-red-400 leading-[1.5rem]">Amazon vs Visa: what does it <br>mean for the BNPL market?</h2>
-                    <div class="text-[11px] flex gap-2 items-center mt-4 mb-4">
-                        <img src="/image/3.PNG" alt="" class="h-5 w-5 rounded-2xl">
-                        <p class="text-[#595980]">By <span class="text-[#9AD2FF]">linethemes</span></p>
-                        <div class="flex gap-2 items-center">
-                            <div class="bg-[#595980] h-[12px] w-[2px]"></div>
-                            <p class="text-[#595980]">August 11, 2023</p>
-                        </div>
-                    </div>
-                    <div class="relative">
-                        <div>
-                            <img src="/image/pos.jpg" alt="" class="rounded-2xl">
-                        </div>
-                        <div class="flex gap-10 mt-7 absolute bottom-1 m-5">
-                            <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-30 hover:bg-[#3dd8ff]"># <span>Amazon</span></button>
-                            <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-20 hover:bg-[#3dd8ff]"># <span>Visa</span></button>
-                        </div>
-                    </div>
-                    <p class="text-[15px] text-[#595980] mt-[30px]">The Bank of England has opened recruitment for <br>staff to oversee the development of its proposed <br>central bank digital cur...</p>
-                    <div class="flex gap-10 mt-7">
-                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-30 hover:bg-[#3dd8ff]"># <span>Bitcoin</span></button>
-                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-20 hover:bg-[#3dd8ff]"># <span>England</span></button>
-                    </div>
-                </div>
-                <div class="">
-                    <h2 class="text-[21px] text-[#00003C] hover:text-red-400 leading-[1.5rem]">Amazon vs Visa: what does it <br>mean for the BNPL market?</h2>
-                    <div class="text-[11px] flex gap-2 items-center mt-4 mb-4">
-                        <img src="/image/3.PNG" alt="" class="h-5 w-5 rounded-2xl">
-                        <p class="text-[#595980]">By <span class="text-[#9AD2FF]">linethemes</span></p>
-                        <div class="flex gap-2 items-center">
-                            <div class="bg-[#595980] h-[12px] w-[2px]"></div>
-                            <p class="text-[#595980]">August 11, 2023</p>
-                        </div>
-                    </div>
-                    <div class="relative">
-                        <div>
-                            <img src="/image/pos.jpg" alt="" class="rounded-2xl">
-                        </div>
-                        <div class="flex gap-10 mt-7 absolute bottom-1 m-5">
-                            <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-30 hover:bg-[#3dd8ff]"># <span>Amazon</span></button>
-                            <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-20 hover:bg-[#3dd8ff]"># <span>Visa</span></button>
-                        </div>
-                    </div>
-                    <p class="text-[15px] text-[#595980] mt-[30px]">Embracing tech transformation is pivotal for <br>banks in the UK to keep pace with evolving times. <br>Amid the sense of urgency...</p>
-                    <div class="flex gap-5 mt-7">
-                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-30 hover:bg-[#3dd8ff]"># <span>Bank</span></button>
-                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-20 hover:bg-[#3dd8ff]"># <span>Data</span></button>
-                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] p-2 rounded-[10px] leading-[20px] w-24 hover:bg-[#3dd8ff]"># <span>Innovation</span></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-         <div class="bg-[#00003c] p-10">
-            <div>
-                <p class="text-[#9ad2ff] mb-7 text-[56px] md:text-[36px] lg:text-[56px]">A partner who grows <span class="text-white">your <br class="md:hidden lg:block">business.</span></p>
-                <div class="flex gap-10">
-                    <button type="button" class="text-[17px] hover:bg-red-600 hover:text-white bg-amber-50 p-4 rounded-2xl flex justify-between gap-20">Free Case Evaluation <span>&nearr;</span></button>
-                    <p class="text-white text-[16px] md:text-[12px] lg:text-[16px]">We believe in growing with our clients <br class="md:hidden lg:block">and offering tailored <br class="md:block lg:hidden">solutions.</p>
-                </div>
-            </div>
-            <div class="mt-20">
-                <ul class="flex text-white justify-between  text-[12px]">
-                    <li><a href="#" class="hover:text-[#9ad2ff]">COMPANY</a></li>
-                    <li><a href="#" class="hover:text-[#9ad2ff]">OUR PEOPLE</a></li>
-                    <li><a href="#" class="hover:text-[#9ad2ff]">SOLUTIONS</a></li>
-                    <li><a href="#" class="hover:text-[#9ad2ff]">MISSION AND VISION</a></li>
-                    <li><a href="#" class="hover:text-[#9ad2ff]">SUCESS STORIES</a></li>
-                    <li><a href="#" class="hover:text-[#9ad2ff]">FAQS</a></li>
-                    <li><a href="#" class="hover:text-[#9ad2ff]">CAREERS</a></li>
-                    <li><a href="#" class="hover:text-[#9ad2ff]">CONTANT US</a></li>
-                </ul>
-            </div>
-            <div class="flex gap-30 mt-20 md:block lg:flex">
-                <div>
-                    <p class="text-[24px] text-[#9ad2ff]">New York</p>
-                    <div class="text-[15px] text-white mt-10">
-                        <p class="text-[#a3a3b9]">2307 Beverley Rd Brooklyn, NY <br>11226 United States.</p>
-                        <p>office.us@example.com</p>
-                        <p>+1 900 135 7999</p>
-                    </div>
-                </div>
-                <div>
-                    <p class="text-[24px] text-[#9ad2ff]">Tonronto</p>
-                    <div class="text-[15px] text-white">
-                        <p class="text-[#a3a3b9] mt-10">36 Toronto Street, Suite 600 <br>Toronto, ON M5C2C5.</p>
-                        <div>office.ca@example.com</div>
-                        <p>+1 900 246 8999</p>
-                    </div>
-                </div>
-                <div>
-                    <p class="text-[24px] text-[#9ad2ff]">Subscribe to our latest insights</p>
-                    <div class="text-[15px] text-white mt-10">
-                        <p class="text-[#a3a3b9]">Keep up to date with technology and innovation, now and in the future.</p>
-                        <div class="border w-120 flex justify-between p-5 rounded-2xl">
-                            <input type="text" name="" id="" placeholder="Enter your email address">
-                            <button type="button">Sign up</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="p-10 text-center bg-white text-[14px]">Copyright © 2023 MLab. Designed & Developed by <span>LineThemes</span> only on <span>Envato Market.</span></div>
     </div>
+
+    <!-- posts -->
+    <section class="px-5 md:px-10 py-14 md:py-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+            <article>
+                <h2 class="text-[21px] text-[#00003C] hover:text-red-400 leading-snug">Amazon vs Visa: what does it mean for the BNPL market?</h2>
+                <div class="text-[11px] flex flex-wrap gap-2 items-center my-4">
+                    <img src="/image/3.PNG" alt="" class="h-5 w-5 rounded-full">
+                    <p class="text-[#595980]">By <span class="text-[#9AD2FF]">linethemes</span></p>
+                    <span class="bg-[#595980] h-3 w-0.5"></span>
+                    <p class="text-[#595980]">August 11, 2023</p>
+                </div>
+                <div class="relative">
+                    <img src="/image/pos.jpg" alt="Payment terminal" class="rounded-2xl w-full h-56 object-cover">
+                    <div class="absolute bottom-3 left-3 flex gap-3">
+                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Amazon</button>
+                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Visa</button>
+                    </div>
+                </div>
+                <p class="text-[15px] text-[#595980] mt-6">The thriving BNPL market has seen setbacks in recent months. Yet, could embedded lending be a solution for lenders avoid...</p>
+                <div class="flex flex-wrap gap-3 mt-6">
+                    <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Amazon</button>
+                    <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Visa</button>
+                </div>
+            </article>
+
+            <article>
+                <h2 class="text-[21px] text-[#00003C] hover:text-red-400 leading-snug">A Guide to Embracing Meaningful Change in Banking</h2>
+                <div class="text-[11px] flex flex-wrap gap-2 items-center my-4">
+                    <img src="/image/3.PNG" alt="" class="h-5 w-5 rounded-full">
+                    <p class="text-[#595980]">By <span class="text-[#9AD2FF]">linethemes</span></p>
+                    <span class="bg-[#595980] h-3 w-0.5"></span>
+                    <p class="text-[#595980]">August 11, 2023</p>
+                </div>
+                <div class="relative">
+                    <img src="/image/atm.jpg" alt="ATM" class="rounded-2xl w-full h-56 object-cover">
+                    <div class="absolute bottom-3 left-3 flex gap-3">
+                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Amazon</button>
+                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Visa</button>
+                    </div>
+                </div>
+                <p class="text-[15px] text-[#595980] mt-6">Change is paramount for banks and credit unions attempting to stay current in today's ever-evolving landscape, including...</p>
+                <div class="flex flex-wrap gap-3 mt-6">
+                    <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Bank</button>
+                    <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Payment</button>
+                    <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Technology</button>
+                </div>
+            </article>
+
+            <article>
+                <h2 class="text-[21px] text-[#00003C] hover:text-red-400 leading-snug">PayPal launches PYUSD stablecoin for payments and transfers</h2>
+                <div class="text-[11px] flex flex-wrap gap-2 items-center my-4">
+                    <img src="/image/3.PNG" alt="" class="h-5 w-5 rounded-full">
+                    <p class="text-[#595980]">By <span class="text-[#9AD2FF]">linethemes</span></p>
+                    <span class="bg-[#595980] h-3 w-0.5"></span>
+                    <p class="text-[#595980]">August 11, 2023</p>
+                </div>
+                <div class="relative">
+                    <img src="/image/pos.jpg" alt="Payment terminal" class="rounded-2xl w-full h-56 object-cover">
+                    <div class="absolute bottom-3 left-3 flex gap-3">
+                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Amazon</button>
+                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Visa</button>
+                    </div>
+                </div>
+                <p class="text-[15px] text-[#595980] mt-6">PayPal is rolling out a stablecoin for payments and transfers, the company announced on Monday. PayPal USD (PYUSD) is...</p>
+                <div class="flex flex-wrap gap-3 mt-6">
+                    <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Bank</button>
+                    <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Finance</button>
+                    <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Paypal</button>
+                </div>
+            </article>
+
+            <article>
+                <h2 class="text-[21px] text-[#00003C] hover:text-red-400 leading-snug">Revolutionizing the Future of Financial Services</h2>
+                <div class="text-[11px] flex flex-wrap gap-2 items-center my-4">
+                    <img src="/image/3.PNG" alt="" class="h-5 w-5 rounded-full">
+                    <p class="text-[#595980]">By <span class="text-[#9AD2FF]">linethemes</span></p>
+                    <span class="bg-[#595980] h-3 w-0.5"></span>
+                    <p class="text-[#595980]">August 11, 2023</p>
+                </div>
+                <div class="relative">
+                    <img src="/image/pos.jpg" alt="Payment terminal" class="rounded-2xl w-full h-56 object-cover">
+                    <div class="absolute bottom-3 left-3 flex gap-3">
+                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Amazon</button>
+                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Visa</button>
+                    </div>
+                </div>
+                <p class="text-[15px] text-[#595980] mt-6">Named a "game-changing opportunity for banks" by The Global Treasurer, embedded finance has become a disruptive force in...</p>
+                <div class="flex flex-wrap gap-3 mt-6">
+                    <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Finance</button>
+                    <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Fintech</button>
+                    <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Future</button>
+                </div>
+            </article>
+
+            <article>
+                <h2 class="text-[21px] text-[#00003C] hover:text-red-400 leading-snug">Amazon vs Visa: what does it mean for the BNPL market?</h2>
+                <div class="text-[11px] flex flex-wrap gap-2 items-center my-4">
+                    <img src="/image/3.PNG" alt="" class="h-5 w-5 rounded-full">
+                    <p class="text-[#595980]">By <span class="text-[#9AD2FF]">linethemes</span></p>
+                    <span class="bg-[#595980] h-3 w-0.5"></span>
+                    <p class="text-[#595980]">August 11, 2023</p>
+                </div>
+                <div class="relative">
+                    <img src="/image/pos.jpg" alt="Payment terminal" class="rounded-2xl w-full h-56 object-cover">
+                    <div class="absolute bottom-3 left-3 flex gap-3">
+                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Amazon</button>
+                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Visa</button>
+                    </div>
+                </div>
+                <p class="text-[15px] text-[#595980] mt-6">The Bank of England has opened recruitment for staff to oversee the development of its proposed central bank digital cur...</p>
+                <div class="flex flex-wrap gap-3 mt-6">
+                    <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Bitcoin</button>
+                    <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># England</button>
+                </div>
+            </article>
+
+            <article>
+                <h2 class="text-[21px] text-[#00003C] hover:text-red-400 leading-snug">Amazon vs Visa: what does it mean for the BNPL market?</h2>
+                <div class="text-[11px] flex flex-wrap gap-2 items-center my-4">
+                    <img src="/image/3.PNG" alt="" class="h-5 w-5 rounded-full">
+                    <p class="text-[#595980]">By <span class="text-[#9AD2FF]">linethemes</span></p>
+                    <span class="bg-[#595980] h-3 w-0.5"></span>
+                    <p class="text-[#595980]">August 11, 2023</p>
+                </div>
+                <div class="relative">
+                    <img src="/image/pos.jpg" alt="Payment terminal" class="rounded-2xl w-full h-56 object-cover">
+                    <div class="absolute bottom-3 left-3 flex gap-3">
+                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Amazon</button>
+                        <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Visa</button>
+                    </div>
+                </div>
+                <p class="text-[15px] text-[#595980] mt-6">Embracing tech transformation is pivotal for banks in the UK to keep pace with evolving times. Amid the sense of urgency...</p>
+                <div class="flex flex-wrap gap-3 mt-6">
+                    <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Bank</button>
+                    <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Data</button>
+                    <button type="button" class="text-[#595980] text-[14px] bg-[#EFF4FE] py-1 px-3 rounded-[10px] hover:bg-[#3dd8ff]"># Innovation</button>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-[#00003c] px-5 md:px-10 py-14">
+        <div>
+            <p class="text-[#9ad2ff] mb-7 text-[36px] md:text-[48px] lg:text-[56px] leading-tight">A partner who grows <span class="text-white">your business.</span></p>
+            <div class="flex flex-col md:flex-row md:items-center gap-6 md:gap-10">
+                <button type="button" class="text-[17px] hover:bg-red-600 hover:text-white bg-amber-50 p-4 rounded-2xl flex justify-between items-center gap-10 w-fit">Free Case Evaluation <span>&nearr;</span></button>
+                <p class="text-white text-[16px]">We believe in growing with our clients and offering tailored solutions.</p>
+            </div>
+        </div>
+
+        <ul class="flex flex-wrap gap-x-8 gap-y-4 mt-16 text-white text-[12px]">
+            <li><a href="#" class="hover:text-[#9ad2ff]">COMPANY</a></li>
+            <li><a href="#" class="hover:text-[#9ad2ff]">OUR PEOPLE</a></li>
+            <li><a href="#" class="hover:text-[#9ad2ff]">SOLUTIONS</a></li>
+            <li><a href="#" class="hover:text-[#9ad2ff]">MISSION AND VISION</a></li>
+            <li><a href="#" class="hover:text-[#9ad2ff]">SUCCESS STORIES</a></li>
+            <li><a href="#" class="hover:text-[#9ad2ff]">FAQS</a></li>
+            <li><a href="#" class="hover:text-[#9ad2ff]">CAREERS</a></li>
+            <li><a href="#" class="hover:text-[#9ad2ff]">CONTACT US</a></li>
+        </ul>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-16">
+            <div>
+                <p class="text-[24px] text-[#9ad2ff]">New York</p>
+                <div class="text-[15px] text-white mt-6 flex flex-col gap-2">
+                    <p class="text-[#a3a3b9]">2307 Beverley Rd Brooklyn, NY <br>11226 United States.</p>
+                    <p>office.us@example.com</p>
+                    <p>+1 900 135 7999</p>
+                </div>
+            </div>
+            <div>
+                <p class="text-[24px] text-[#9ad2ff]">Toronto</p>
+                <div class="text-[15px] text-white mt-6 flex flex-col gap-2">
+                    <p class="text-[#a3a3b9]">36 Toronto Street, Suite 600 <br>Toronto, ON M5C2C5.</p>
+                    <p>office.ca@example.com</p>
+                    <p>+1 900 246 8999</p>
+                </div>
+            </div>
+            <div class="md:col-span-2 lg:col-span-1">
+                <p class="text-[24px] text-[#9ad2ff]">Subscribe to our latest insights</p>
+                <div class="text-[15px] text-white mt-6">
+                    <p class="text-[#a3a3b9] mb-5">Keep up to date with technology and innovation, now and in the future.</p>
+                    <form class="border border-white/50 flex items-center justify-between gap-3 p-4 rounded-2xl w-full max-w-md">
+                        <input type="email" name="email" placeholder="Enter your email address" class="bg-transparent outline-none flex-1 min-w-0" required>
+                        <button type="submit">Sign up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="px-5 py-8 text-center bg-white text-[14px]">Copyright © 2023 MLab. Designed &amp; Developed by <span>LineThemes</span> only on <span>Envato Market.</span></div>
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            const open = mobileMenu.classList.toggle('hidden') === false;
+            menuBtn.setAttribute('aria-expanded', open);
+        });
+    </script>
 </body>
 </html>
